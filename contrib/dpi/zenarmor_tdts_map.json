@@ -1,0 +1,6562 @@
+{
+ "10006": {
+  "match": "fuzzy",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 133,
+  "tdts_name": "NETEASE Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "NetEase Email"
+ },
+ "10018": {
+  "match": "exact",
+  "tdts_app_id": 34,
+  "tdts_cat_id": 131,
+  "tdts_name": "4Shared",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "4shared"
+ },
+ "10019": {
+  "match": "exact",
+  "tdts_app_id": 162,
+  "tdts_cat_id": 152,
+  "tdts_name": "500px",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "500px"
+ },
+ "10023": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "ABC Online"
+ },
+ "10033": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 141,
+  "tdts_name": "Adcash",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Adcash"
+ },
+ "10038": {
+  "match": "exact",
+  "tdts_app_id": 244,
+  "tdts_cat_id": 141,
+  "tdts_name": "AdF.ly",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "AdF.ly"
+ },
+ "10041": {
+  "match": "containment",
+  "tdts_app_id": 108,
+  "tdts_cat_id": 148,
+  "tdts_name": "Kerberos 5 admin changepw",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Admin.ch"
+ },
+ "10045": {
+  "match": "exact",
+  "tdts_app_id": 150,
+  "tdts_cat_id": 132,
+  "tdts_name": "ADNstream",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "ADNStream"
+ },
+ "10047": {
+  "match": "containment",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 142,
+  "tdts_name": "Adobe",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Adobe Analytics"
+ },
+ "10048": {
+  "match": "containment",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 142,
+  "tdts_name": "Adobe",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Adobe Software"
+ },
+ "10052": {
+  "match": "containment",
+  "tdts_app_id": 224,
+  "tdts_cat_id": 129,
+  "tdts_name": "Adrive.co.kr",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "ADrive"
+ },
+ "10061": {
+  "match": "containment",
+  "tdts_app_id": 124,
+  "tdts_cat_id": 141,
+  "tdts_name": "Dailian.co.kr",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Aili"
+ },
+ "10064": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Airtime"
+ },
+ "10066": {
+  "match": "containment",
+  "tdts_app_id": 126,
+  "tdts_cat_id": 141,
+  "tdts_name": "Akamai.net",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Akamai"
+ },
+ "10068": {
+  "match": "containment",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 141,
+  "tdts_name": "Alibaba.com",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Alibaba"
+ },
+ "10069": {
+  "match": "exact",
+  "tdts_app_id": 272,
+  "tdts_cat_id": 141,
+  "tdts_name": "Aliexpress",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Aliexpress"
+ },
+ "10070": {
+  "match": "containment",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 141,
+  "tdts_name": "Alipay.com",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Alipay"
+ },
+ "10077": {
+  "match": "exact",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon"
+ },
+ "10078": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Amazon Ad Service"
+ },
+ "10079": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Amazon Art"
+ },
+ "10080": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Books"
+ },
+ "10081": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Amazon Games"
+ },
+ "10082": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Gardening Tools"
+ },
+ "10083": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Grocery"
+ },
+ "10084": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Handmade"
+ },
+ "10085": {
+  "match": "exact",
+  "tdts_app_id": 193,
+  "tdts_cat_id": 132,
+  "tdts_name": "Amazon Instant Video",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Amazon Instant Video"
+ },
+ "10086": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Amazon Music"
+ },
+ "10087": {
+  "match": "containment",
+  "tdts_app_id": 75,
+  "tdts_cat_id": 132,
+  "tdts_name": "Amazon Prime Music",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Prime"
+ },
+ "10088": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Print"
+ },
+ "10089": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Video"
+ },
+ "10090": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Amazon Web Services"
+ },
+ "10092": {
+  "match": "exact",
+  "tdts_app_id": 114,
+  "tdts_cat_id": 152,
+  "tdts_name": "Ameba",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Ameba"
+ },
+ "10093": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "American Airlines"
+ },
+ "10103": {
+  "match": "exact",
+  "tdts_app_id": 37,
+  "tdts_cat_id": 138,
+  "tdts_name": "AnyDesk",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "AnyDesk"
+ },
+ "10104": {
+  "match": "containment",
+  "tdts_app_id": 96,
+  "tdts_cat_id": 133,
+  "tdts_name": "AOL Mail",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "AOL"
+ },
+ "10108": {
+  "match": "exact",
+  "tdts_app_id": 96,
+  "tdts_cat_id": 133,
+  "tdts_name": "AOL Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "AOL Mail"
+ },
+ "10110": {
+  "match": "containment",
+  "tdts_app_id": 67,
+  "tdts_cat_id": 148,
+  "tdts_name": "ACAP",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "AP"
+ },
+ "10111": {
+  "match": "containment",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 145,
+  "tdts_name": "Apache Synapse",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "APA"
+ },
+ "10113": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Apple"
+ },
+ "10114": {
+  "match": "containment",
+  "tdts_app_id": 160,
+  "tdts_cat_id": 141,
+  "tdts_name": "AppStore",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Apple Appstore"
+ },
+ "10116": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Apple Health"
+ },
+ "10117": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Apple iForgot"
+ },
+ "10118": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 132,
+  "tdts_name": "iTunes",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Apple iTunes"
+ },
+ "10119": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Apple Mail"
+ },
+ "10120": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Apple Maps"
+ },
+ "10122": {
+  "match": "exact",
+  "tdts_app_id": 42,
+  "tdts_cat_id": 132,
+  "tdts_name": "Apple Music",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Apple Music"
+ },
+ "10123": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Apple News"
+ },
+ "10124": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Apple Pipeline"
+ },
+ "10125": {
+  "match": "containment",
+  "tdts_app_id": 159,
+  "tdts_cat_id": 132,
+  "tdts_name": "Podcast",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Apple Podcasts"
+ },
+ "10127": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Apple Store"
+ },
+ "10128": {
+  "match": "containment",
+  "tdts_app_id": 202,
+  "tdts_cat_id": 132,
+  "tdts_name": "Trailers",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Apple Trailers"
+ },
+ "10129": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Apple Update"
+ },
+ "10134": {
+  "match": "containment",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 133,
+  "tdts_name": "Arcor",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "ARC"
+ },
+ "10140": {
+  "match": "containment",
+  "tdts_app_id": 20,
+  "tdts_cat_id": 148,
+  "tdts_name": "ASIA",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Asia Times Online"
+ },
+ "10141": {
+  "match": "containment",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 141,
+  "tdts_name": "Ask.com",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Ask"
+ },
+ "10144": {
+  "match": "containment",
+  "tdts_app_id": 144,
+  "tdts_cat_id": 131,
+  "tdts_name": "ASUSWebStorage",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Asus"
+ },
+ "10146": {
+  "match": "containment",
+  "tdts_app_id": 68,
+  "tdts_cat_id": 136,
+  "tdts_name": "Battle.net",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "ATT"
+ },
+ "10150": {
+  "match": "containment",
+  "tdts_app_id": 79,
+  "tdts_cat_id": 132,
+  "tdts_name": "Audible",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Audible.com"
+ },
+ "10157": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 142,
+  "tdts_name": "Avast",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Avast AV"
+ },
+ "10158": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 142,
+  "tdts_name": "Avast",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Avast Cloudcare"
+ },
+ "10159": {
+  "match": "containment",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 145,
+  "tdts_name": "Avaya",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Avaya Live"
+ },
+ "10160": {
+  "match": "exact",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 145,
+  "tdts_name": "Avaya",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Avaya"
+ },
+ "10165": {
+  "match": "exact",
+  "tdts_app_id": 156,
+  "tdts_cat_id": 131,
+  "tdts_name": "Backblaze",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Backblaze"
+ },
+ "10168": {
+  "match": "exact",
+  "tdts_app_id": 245,
+  "tdts_cat_id": 141,
+  "tdts_name": "Baidu",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Baidu"
+ },
+ "10169": {
+  "match": "containment",
+  "tdts_app_id": 245,
+  "tdts_cat_id": 141,
+  "tdts_name": "Baidu",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Baidu Video"
+ },
+ "10170": {
+  "match": "containment",
+  "tdts_app_id": 245,
+  "tdts_cat_id": 141,
+  "tdts_name": "Baidu",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Baidu Yun"
+ },
+ "10171": {
+  "match": "exact",
+  "tdts_app_id": 61,
+  "tdts_cat_id": 128,
+  "tdts_name": "BaiduHi",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "BaiduHi"
+ },
+ "10180": {
+  "match": "exact",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 141,
+  "tdts_name": "BBC",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "BBC"
+ },
+ "10181": {
+  "match": "exact",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 132,
+  "tdts_name": "BBC-iplayer",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "BBC iPlayer"
+ },
+ "10182": {
+  "match": "containment",
+  "tdts_app_id": 116,
+  "tdts_cat_id": 152,
+  "tdts_name": "Bebo social network",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Bebo"
+ },
+ "10192": {
+  "match": "exact",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 133,
+  "tdts_name": "Biglobe",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Biglobe"
+ },
+ "10195": {
+  "match": "exact",
+  "tdts_app_id": 39,
+  "tdts_cat_id": 141,
+  "tdts_name": "Bing Maps",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Bing Maps"
+ },
+ "10201": {
+  "match": "exact",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 142,
+  "tdts_name": "BitDefender",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "BitDefender"
+ },
+ "10204": {
+  "match": "containment",
+  "tdts_app_id": 178,
+  "tdts_cat_id": 129,
+  "tdts_name": "qBittorrent",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "BitTorrent"
+ },
+ "10207": {
+  "match": "containment",
+  "tdts_app_id": 190,
+  "tdts_cat_id": 148,
+  "tdts_name": "Blackberry Authentication via SSL",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Blackberry"
+ },
+ "10209": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "blinkx"
+ },
+ "10212": {
+  "match": "exact",
+  "tdts_app_id": 110,
+  "tdts_cat_id": 152,
+  "tdts_name": "Blogger",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Blogger"
+ },
+ "10216": {
+  "match": "exact",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 140,
+  "tdts_name": "Bloomberg",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Bloomberg"
+ },
+ "10217": {
+  "match": "containment",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 140,
+  "tdts_name": "Bloomberg",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Bloomberg Businessweek"
+ },
+ "10220": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 135,
+  "tdts_name": "Oracle",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Oracle BlueKai"
+ },
+ "10229": {
+  "match": "exact",
+  "tdts_app_id": 68,
+  "tdts_cat_id": 131,
+  "tdts_name": "Box",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Box"
+ },
+ "10234": {
+  "match": "exact",
+  "tdts_app_id": 57,
+  "tdts_cat_id": 132,
+  "tdts_name": "Break.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Break.com"
+ },
+ "10241": {
+  "match": "exact",
+  "tdts_app_id": 78,
+  "tdts_cat_id": 139,
+  "tdts_name": "BrowSec",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Browsec"
+ },
+ "10252": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Cabal Online"
+ },
+ "10262": {
+  "match": "exact",
+  "tdts_app_id": 47,
+  "tdts_cat_id": 131,
+  "tdts_name": "Carbonite",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Carbonite"
+ },
+ "10269": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 147,
+  "tdts_name": "decbsrv",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "CBS"
+ },
+ "10270": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "CBS Interactive"
+ },
+ "10276": {
+  "match": "containment",
+  "tdts_app_id": 46,
+  "tdts_cat_id": 129,
+  "tdts_name": "BCDC++",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "CDC"
+ },
+ "10280": {
+  "match": "exact",
+  "tdts_app_id": 50,
+  "tdts_cat_id": 132,
+  "tdts_name": "Channel 4",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Channel 4"
+ },
+ "10281": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Feed Management"
+ },
+ "10291": {
+  "match": "containment",
+  "tdts_app_id": 52,
+  "tdts_cat_id": 152,
+  "tdts_name": "Class Chinaren",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Chinaren"
+ },
+ "10295": {
+  "match": "containment",
+  "tdts_app_id": 51,
+  "tdts_cat_id": 141,
+  "tdts_name": "Chosun.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Chosun"
+ },
+ "10296": {
+  "match": "containment",
+  "tdts_app_id": 99,
+  "tdts_cat_id": 148,
+  "tdts_name": "Cisco TDP",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Cisco"
+ },
+ "10301": {
+  "match": "exact",
+  "tdts_app_id": 39,
+  "tdts_cat_id": 145,
+  "tdts_name": "Citrix",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Citrix"
+ },
+ "10302": {
+  "match": "exact",
+  "tdts_app_id": 1,
+  "tdts_cat_id": 152,
+  "tdts_name": "Classmates",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Classmates"
+ },
+ "10308": {
+  "match": "exact",
+  "tdts_app_id": 138,
+  "tdts_cat_id": 131,
+  "tdts_name": "Clip2net",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Clip2Net"
+ },
+ "10309": {
+  "match": "containment",
+  "tdts_app_id": 138,
+  "tdts_cat_id": 131,
+  "tdts_name": "Clip2net",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Clip2Net Upload"
+ },
+ "10311": {
+  "match": "containment",
+  "tdts_app_id": 66,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon CloudFront",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "CloudFront"
+ },
+ "10313": {
+  "match": "containment",
+  "tdts_app_id": 79,
+  "tdts_cat_id": 147,
+  "tdts_name": "ocs_cmu",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "CMU"
+ },
+ "10318": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 141,
+  "tdts_name": "CNN.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "CNN"
+ },
+ "10324": {
+  "match": "containment",
+  "tdts_app_id": 104,
+  "tdts_cat_id": 133,
+  "tdts_name": "Comcast",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Comcast Mail"
+ },
+ "10332": {
+  "match": "exact",
+  "tdts_app_id": 177,
+  "tdts_cat_id": 145,
+  "tdts_name": "concur",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Concur"
+ },
+ "10339": {
+  "match": "fuzzy",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 139,
+  "tdts_name": "Coralcdn",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Coral CDN"
+ },
+ "10342": {
+  "match": "containment",
+  "tdts_app_id": 177,
+  "tdts_cat_id": 141,
+  "tdts_name": "Coupang",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Coupa"
+ },
+ "10345": {
+  "match": "exact",
+  "tdts_app_id": 98,
+  "tdts_cat_id": 133,
+  "tdts_name": "COX",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Cox"
+ },
+ "10346": {
+  "match": "exact",
+  "tdts_app_id": 228,
+  "tdts_cat_id": 145,
+  "tdts_name": "CPanel",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "cPanel"
+ },
+ "10347": {
+  "match": "containment",
+  "tdts_app_id": 37,
+  "tdts_cat_id": 141,
+  "tdts_name": "Craigslist.org",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Craigslist"
+ },
+ "10351": {
+  "match": "exact",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 132,
+  "tdts_name": "Crunchyroll",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Crunchyroll"
+ },
+ "10355": {
+  "match": "containment",
+  "tdts_app_id": 81,
+  "tdts_cat_id": 132,
+  "tdts_name": "DIRECTV",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "CTV"
+ },
+ "10359": {
+  "match": "fuzzy",
+  "tdts_app_id": 90,
+  "tdts_cat_id": 139,
+  "tdts_name": "CyberGhostVPN",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "CyberGhost VPN"
+ },
+ "10362": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 132,
+  "tdts_name": "Dailymotion",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Dailymotion"
+ },
+ "10363": {
+  "match": "exact",
+  "tdts_app_id": 139,
+  "tdts_cat_id": 131,
+  "tdts_name": "Datei.to",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Datei.to"
+ },
+ "10364": {
+  "match": "exact",
+  "tdts_app_id": 103,
+  "tdts_cat_id": 152,
+  "tdts_name": "Daum-blog",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Daum Blog"
+ },
+ "10365": {
+  "match": "containment",
+  "tdts_app_id": 162,
+  "tdts_cat_id": 141,
+  "tdts_name": "Daum",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Daum Cafe"
+ },
+ "10366": {
+  "match": "exact",
+  "tdts_app_id": 80,
+  "tdts_cat_id": 133,
+  "tdts_name": "Daum Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Daum Mail"
+ },
+ "10370": {
+  "match": "exact",
+  "tdts_app_id": 65,
+  "tdts_cat_id": 152,
+  "tdts_name": "Delicious",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Delicious"
+ },
+ "10377": {
+  "match": "exact",
+  "tdts_app_id": 36,
+  "tdts_cat_id": 131,
+  "tdts_name": "Depositfiles",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "DepositFiles"
+ },
+ "10389": {
+  "match": "containment",
+  "tdts_app_id": 206,
+  "tdts_cat_id": 146,
+  "tdts_name": "direct",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Direct Domains"
+ },
+ "10390": {
+  "match": "containment",
+  "tdts_app_id": 236,
+  "tdts_cat_id": 147,
+  "tdts_name": "Bundle Discovery Protocol",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Discover"
+ },
+ "10393": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Disney Interactive"
+ },
+ "10403": {
+  "match": "containment",
+  "tdts_app_id": 164,
+  "tdts_cat_id": 136,
+  "tdts_name": "DotA",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "DOT"
+ },
+ "10413": {
+  "match": "exact",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 131,
+  "tdts_name": "Dropbox",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Dropbox"
+ },
+ "10414": {
+  "match": "containment",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 131,
+  "tdts_name": "Dropbox",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Dropbox Download"
+ },
+ "10415": {
+  "match": "containment",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 131,
+  "tdts_name": "Dropbox",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Dropbox Upload"
+ },
+ "10426": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "E! Online"
+ },
+ "10431": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "EarthLink"
+ },
+ "10433": {
+  "match": "exact",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 129,
+  "tdts_name": "easyMule",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "easyMule"
+ },
+ "10434": {
+  "match": "exact",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 141,
+  "tdts_name": "eBay",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "eBay"
+ },
+ "10435": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 143,
+  "tdts_name": "eBuddy.com",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "ebuddy"
+ },
+ "10438": {
+  "match": "containment",
+  "tdts_app_id": 55,
+  "tdts_cat_id": 147,
+  "tdts_name": "nced",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "ED"
+ },
+ "10440": {
+  "match": "containment",
+  "tdts_app_id": 83,
+  "tdts_cat_id": 133,
+  "tdts_name": "MailChimp",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Mailchimp URL Shortener"
+ },
+ "10448": {
+  "match": "fuzzy",
+  "tdts_app_id": 110,
+  "tdts_cat_id": 131,
+  "tdts_name": "Elephantdrive",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Elephant Drive"
+ },
+ "10449": {
+  "match": "containment",
+  "tdts_app_id": 38,
+  "tdts_cat_id": 133,
+  "tdts_name": "Freenet",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Enet"
+ },
+ "10456": {
+  "match": "containment",
+  "tdts_app_id": 106,
+  "tdts_cat_id": 147,
+  "tdts_name": "creativepartnr",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "EPA"
+ },
+ "10460": {
+  "match": "exact",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 141,
+  "tdts_name": "ESPN",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Espn"
+ },
+ "10461": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "ESPN Online sports update"
+ },
+ "10462": {
+  "match": "containment",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 141,
+  "tdts_name": "ESPN",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "ESPNcricinfo"
+ },
+ "10469": {
+  "match": "exact",
+  "tdts_app_id": 28,
+  "tdts_cat_id": 141,
+  "tdts_name": "Evernote",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Evernote"
+ },
+ "10472": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Exchange Online"
+ },
+ "10476": {
+  "match": "exact",
+  "tdts_app_id": 31,
+  "tdts_cat_id": 133,
+  "tdts_name": "Eyejot",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Eyejot"
+ },
+ "10481": {
+  "match": "exact",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook"
+ },
+ "10482": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Apps"
+ },
+ "10483": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "VOIP",
+  "zenarmor_name": "Facebook Call"
+ },
+ "10484": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Facebook Chat"
+ },
+ "10485": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Events"
+ },
+ "10486": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Friends"
+ },
+ "10487": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Facebook Games"
+ },
+ "10488": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Groups"
+ },
+ "10489": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Like"
+ },
+ "10490": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Message"
+ },
+ "10491": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Notes"
+ },
+ "10492": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Notification"
+ },
+ "10493": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Photos"
+ },
+ "10494": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Photos and Videos"
+ },
+ "10496": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Sports"
+ },
+ "10497": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Utilities"
+ },
+ "10498": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Video"
+ },
+ "10499": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Facebook Video Call"
+ },
+ "10500": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook video chat"
+ },
+ "10502": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Write Comment"
+ },
+ "10504": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "facebook.comment"
+ },
+ "10505": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "facebook.statusUpdate"
+ },
+ "10506": {
+  "match": "exact",
+  "tdts_app_id": 168,
+  "tdts_cat_id": 152,
+  "tdts_name": "Fancy",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Fancy"
+ },
+ "10511": {
+  "match": "exact",
+  "tdts_app_id": 111,
+  "tdts_cat_id": 152,
+  "tdts_name": "FC2",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "FC2"
+ },
+ "10518": {
+  "match": "exact",
+  "tdts_app_id": 54,
+  "tdts_cat_id": 128,
+  "tdts_name": "Fetion",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Fetion"
+ },
+ "10527": {
+  "match": "exact",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 152,
+  "tdts_name": "Flickr",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Flickr"
+ },
+ "10528": {
+  "match": "containment",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 152,
+  "tdts_name": "Flickr",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Flickr Upload"
+ },
+ "10532": {
+  "match": "exact",
+  "tdts_app_id": 78,
+  "tdts_cat_id": 131,
+  "tdts_name": "Fluxiom",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Fluxiom"
+ },
+ "10533": {
+  "match": "exact",
+  "tdts_app_id": 38,
+  "tdts_cat_id": 139,
+  "tdts_name": "FlyProxy",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "FlyProxy"
+ },
+ "10541": {
+  "match": "exact",
+  "tdts_app_id": 31,
+  "tdts_cat_id": 152,
+  "tdts_name": "Foursquare",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Foursquare"
+ },
+ "10542": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 129,
+  "tdts_name": "Foxy",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "FOX"
+ },
+ "10548": {
+  "match": "exact",
+  "tdts_app_id": 127,
+  "tdts_cat_id": 132,
+  "tdts_name": "Freecast",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Freecast"
+ },
+ "10554": {
+  "match": "containment",
+  "tdts_app_id": 63,
+  "tdts_cat_id": 152,
+  "tdts_name": "AdultFriendFinder",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "FriendFinder"
+ },
+ "10555": {
+  "match": "exact",
+  "tdts_app_id": 113,
+  "tdts_cat_id": 152,
+  "tdts_name": "Friendster",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Friendster"
+ },
+ "10556": {
+  "match": "exact",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 134,
+  "tdts_name": "Fring",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Fring"
+ },
+ "10557": {
+  "match": "exact",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 142,
+  "tdts_name": "F-Secure",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "F-secure"
+ },
+ "10558": {
+  "match": "containment",
+  "tdts_app_id": 104,
+  "tdts_cat_id": 136,
+  "tdts_name": "RIFT",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "FT"
+ },
+ "10560": {
+  "match": "exact",
+  "tdts_app_id": 61,
+  "tdts_cat_id": 132,
+  "tdts_name": "Funshion",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Funshion"
+ },
+ "10562": {
+  "match": "fuzzy",
+  "tdts_app_id": 155,
+  "tdts_cat_id": 136,
+  "tdts_name": "GameCenter",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Game Center"
+ },
+ "10566": {
+  "match": "containment",
+  "tdts_app_id": 71,
+  "tdts_cat_id": 146,
+  "tdts_name": "SU MIT Telnet Gateway",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Gateway"
+ },
+ "10573": {
+  "match": "containment",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 152,
+  "tdts_name": "Tagged",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "GG"
+ },
+ "10574": {
+  "match": "exact",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 131,
+  "tdts_name": "GitHub",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "GitHub"
+ },
+ "10580": {
+  "match": "exact",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 139,
+  "tdts_name": "Glype",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Glype"
+ },
+ "10581": {
+  "match": "containment",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 139,
+  "tdts_name": "Glype",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Glype Proxy"
+ },
+ "10582": {
+  "match": "exact",
+  "tdts_app_id": 95,
+  "tdts_cat_id": 133,
+  "tdts_name": "Gmail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Gmail"
+ },
+ "10584": {
+  "match": "exact",
+  "tdts_app_id": 63,
+  "tdts_cat_id": 133,
+  "tdts_name": "Gmx Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "GMX Mail"
+ },
+ "10586": {
+  "match": "containment",
+  "tdts_app_id": 29,
+  "tdts_cat_id": 129,
+  "tdts_name": "GNUnet",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "GNU"
+ },
+ "10593": {
+  "match": "containment",
+  "tdts_app_id": 63,
+  "tdts_cat_id": 132,
+  "tdts_name": "MTV.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "GOMTV.com"
+ },
+ "10595": {
+  "match": "containment",
+  "tdts_app_id": 201,
+  "tdts_cat_id": 132,
+  "tdts_name": "Mgoon",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Goo"
+ },
+ "10599": {
+  "match": "exact",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Google"
+ },
+ "10600": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Account Authentication"
+ },
+ "10601": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Google Ads"
+ },
+ "10602": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google Allo"
+ },
+ "10603": {
+  "match": "exact",
+  "tdts_app_id": 38,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Analytics",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Google Analytics"
+ },
+ "10604": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "System & OS",
+  "zenarmor_name": "Google Android"
+ },
+ "10605": {
+  "match": "containment",
+  "tdts_app_id": 188,
+  "tdts_cat_id": 148,
+  "tdts_name": "Google App Engine(SSL)",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google App Engine"
+ },
+ "10606": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Calendar"
+ },
+ "10607": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Code Project"
+ },
+ "10608": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Contacts"
+ },
+ "10609": {
+  "match": "exact",
+  "tdts_app_id": 163,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Docs",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Google Docs"
+ },
+ "10610": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "Google Drive"
+ },
+ "10611": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google Duo"
+ },
+ "10612": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Google Fiber"
+ },
+ "10613": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Finance"
+ },
+ "10614": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google Groups"
+ },
+ "10615": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google GSuite"
+ },
+ "10617": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Google helpouts"
+ },
+ "10620": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Maps"
+ },
+ "10621": {
+  "match": "exact",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Google Play"
+ },
+ "10622": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Play Books"
+ },
+ "10623": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Google Play Movies"
+ },
+ "10624": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Google Play Movies Search"
+ },
+ "10625": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Google Play Movies Watch"
+ },
+ "10626": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Play",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Google Play Music"
+ },
+ "10627": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google Plus"
+ },
+ "10628": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Google Product Search"
+ },
+ "10631": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Services"
+ },
+ "10632": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Google Sheets"
+ },
+ "10633": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Shortener"
+ },
+ "10634": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Sign in"
+ },
+ "10636": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Google Static Content"
+ },
+ "10637": {
+  "match": "exact",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Translate",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Translate"
+ },
+ "10639": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google+ Photos"
+ },
+ "10640": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Google+ Videos"
+ },
+ "10642": {
+  "match": "exact",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 138,
+  "tdts_name": "GoToMyPC",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "GoToMyPC"
+ },
+ "10643": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 152,
+  "tdts_name": "Ning",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "GoToTraining"
+ },
+ "10644": {
+  "match": "exact",
+  "tdts_app_id": 78,
+  "tdts_cat_id": 136,
+  "tdts_name": "Grand Theft Auto",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Grand Theft Auto"
+ },
+ "10649": {
+  "match": "exact",
+  "tdts_app_id": 145,
+  "tdts_cat_id": 152,
+  "tdts_name": "GREE",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "GREE"
+ },
+ "10651": {
+  "match": "exact",
+  "tdts_app_id": 173,
+  "tdts_cat_id": 141,
+  "tdts_name": "Groupon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Groupon"
+ },
+ "10652": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Guangming Online"
+ },
+ "10653": {
+  "match": "exact",
+  "tdts_app_id": 93,
+  "tdts_cat_id": 139,
+  "tdts_name": "Guardster",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Guardster"
+ },
+ "10654": {
+  "match": "exact",
+  "tdts_app_id": 136,
+  "tdts_cat_id": 132,
+  "tdts_name": "GYAO",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Gyao"
+ },
+ "10657": {
+  "match": "exact",
+  "tdts_app_id": 140,
+  "tdts_cat_id": 136,
+  "tdts_name": "Hangame",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Hangame"
+ },
+ "10658": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 141,
+  "tdts_name": "hao123",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Hao123.com"
+ },
+ "10660": {
+  "match": "exact",
+  "tdts_app_id": 37,
+  "tdts_cat_id": 152,
+  "tdts_name": "Hatena",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Hatena"
+ },
+ "10661": {
+  "match": "containment",
+  "tdts_app_id": 203,
+  "tdts_cat_id": 132,
+  "tdts_name": "HBOGO",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "HBO"
+ },
+ "10662": {
+  "match": "fuzzy",
+  "tdts_app_id": 203,
+  "tdts_cat_id": 132,
+  "tdts_name": "HBOGO",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "HBO Go"
+ },
+ "10664": {
+  "match": "containment",
+  "tdts_app_id": 46,
+  "tdts_cat_id": 148,
+  "tdts_name": "HELLO_PORT",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Hello"
+ },
+ "10667": {
+  "match": "fuzzy",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 139,
+  "tdts_name": "Hidemyass",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Hide My Ass!"
+ },
+ "10668": {
+  "match": "exact",
+  "tdts_app_id": 61,
+  "tdts_cat_id": 139,
+  "tdts_name": "Hideman",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Hideman"
+ },
+ "10669": {
+  "match": "containment",
+  "tdts_app_id": 61,
+  "tdts_cat_id": 139,
+  "tdts_name": "Hideman",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Hideman VPN"
+ },
+ "10670": {
+  "match": "containment",
+  "tdts_app_id": 53,
+  "tdts_cat_id": 128,
+  "tdts_name": "Hike",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "HIKE Messenger"
+ },
+ "10672": {
+  "match": "exact",
+  "tdts_app_id": 93,
+  "tdts_cat_id": 128,
+  "tdts_name": "HipChat",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "HipChat"
+ },
+ "10675": {
+  "match": "exact",
+  "tdts_app_id": 69,
+  "tdts_cat_id": 139,
+  "tdts_name": "Hola",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Hola"
+ },
+ "10679": {
+  "match": "exact",
+  "tdts_app_id": 126,
+  "tdts_cat_id": 152,
+  "tdts_name": "Hootsuite",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "HootSuite"
+ },
+ "10684": {
+  "match": "fuzzy",
+  "tdts_app_id": 65,
+  "tdts_cat_id": 139,
+  "tdts_name": "HotspotShield",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Hotspot Shield"
+ },
+ "10686": {
+  "match": "containment",
+  "tdts_app_id": 42,
+  "tdts_cat_id": 138,
+  "tdts_name": "Instanthousecall",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "House"
+ },
+ "10689": {
+  "match": "containment",
+  "tdts_app_id": 54,
+  "tdts_cat_id": 139,
+  "tdts_name": "Phproxy",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "HP"
+ },
+ "10694": {
+  "match": "fuzzy",
+  "tdts_app_id": 33,
+  "tdts_cat_id": 141,
+  "tdts_name": "Huffington Post",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Huffingtonpost"
+ },
+ "10698": {
+  "match": "exact",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 132,
+  "tdts_name": "Hulu",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Hulu"
+ },
+ "10701": {
+  "match": "exact",
+  "tdts_app_id": 99,
+  "tdts_cat_id": 133,
+  "tdts_name": "Hushmail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Hushmail"
+ },
+ "10702": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "I Waste So Much Time"
+ },
+ "10704": {
+  "match": "exact",
+  "tdts_app_id": 26,
+  "tdts_cat_id": 131,
+  "tdts_name": "IBackup",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "iBackup"
+ },
+ "10705": {
+  "match": "containment",
+  "tdts_app_id": 176,
+  "tdts_cat_id": 147,
+  "tdts_name": "ibm-db2",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "IBM"
+ },
+ "10711": {
+  "match": "exact",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 134,
+  "tdts_name": "iCall",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "iCall"
+ },
+ "10713": {
+  "match": "exact",
+  "tdts_app_id": 150,
+  "tdts_cat_id": 131,
+  "tdts_name": "iCloud",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "iCloud"
+ },
+ "10714": {
+  "match": "containment",
+  "tdts_app_id": 150,
+  "tdts_cat_id": 131,
+  "tdts_name": "iCloud",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "iCloud Mail"
+ },
+ "10715": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 128,
+  "tdts_name": "AIM/ICQ/iIM",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "ICQ"
+ },
+ "10717": {
+  "match": "containment",
+  "tdts_app_id": 45,
+  "tdts_cat_id": 148,
+  "tdts_name": "IEEE MMS",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "IEEE"
+ },
+ "10718": {
+  "match": "exact",
+  "tdts_app_id": 191,
+  "tdts_cat_id": 141,
+  "tdts_name": "ifeng.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Ifeng.com"
+ },
+ "10721": {
+  "match": "containment",
+  "tdts_app_id": 196,
+  "tdts_cat_id": 146,
+  "tdts_name": "Insignia Solutions",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "IGN"
+ },
+ "10726": {
+  "match": "containment",
+  "tdts_app_id": 167,
+  "tdts_cat_id": 132,
+  "tdts_name": "IMDb.com",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "IMDB"
+ },
+ "10727": {
+  "match": "exact",
+  "tdts_app_id": 31,
+  "tdts_cat_id": 141,
+  "tdts_name": "Imgur",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Imgur"
+ },
+ "10729": {
+  "match": "exact",
+  "tdts_app_id": 7,
+  "tdts_cat_id": 143,
+  "tdts_name": "imo.im",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "imo.im"
+ },
+ "10731": {
+  "match": "containment",
+  "tdts_app_id": 83,
+  "tdts_cat_id": 136,
+  "tdts_name": "Aleph One",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Aleph"
+ },
+ "10732": {
+  "match": "containment",
+  "tdts_app_id": 171,
+  "tdts_cat_id": 132,
+  "tdts_name": "LiveJasmin.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "In.com"
+ },
+ "10734": {
+  "match": "containment",
+  "tdts_app_id": 48,
+  "tdts_cat_id": 148,
+  "tdts_name": "TINC",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Inc"
+ },
+ "10736": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Indiatimes"
+ },
+ "10740": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Infonline"
+ },
+ "10745": {
+  "match": "exact",
+  "tdts_app_id": 158,
+  "tdts_cat_id": 152,
+  "tdts_name": "Instagram",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Instagram"
+ },
+ "10751": {
+  "match": "exact",
+  "tdts_app_id": 231,
+  "tdts_cat_id": 141,
+  "tdts_name": "Internet Archive",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Internet Archive"
+ },
+ "10752": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Intralinks"
+ },
+ "10758": {
+  "match": "containment",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 148,
+  "tdts_name": "phone",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "iPhone Core Media"
+ },
+ "10759": {
+  "match": "containment",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 148,
+  "tdts_name": "phone",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "iPhone SecurityD"
+ },
+ "10760": {
+  "match": "containment",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 152,
+  "tdts_name": "pairs",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "IRS"
+ },
+ "10765": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 132,
+  "tdts_name": "iTunes",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "iTunes Radio"
+ },
+ "10766": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 132,
+  "tdts_name": "iTunes",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "iTunes U"
+ },
+ "10770": {
+  "match": "exact",
+  "tdts_app_id": 36,
+  "tdts_cat_id": 142,
+  "tdts_name": "JAVA Update",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Java Update"
+ },
+ "10779": {
+  "match": "fuzzy",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 138,
+  "tdts_name": "Join.me",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "JoinMe"
+ },
+ "10784": {
+  "match": "containment",
+  "tdts_app_id": 117,
+  "tdts_cat_id": 152,
+  "tdts_name": "Kaixin",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Kaixin001"
+ },
+ "10785": {
+  "match": "exact",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 134,
+  "tdts_name": "Kakao",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Kakao"
+ },
+ "10786": {
+  "match": "containment",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 134,
+  "tdts_name": "Kakao",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Kakao Story"
+ },
+ "10787": {
+  "match": "containment",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 134,
+  "tdts_name": "Kakao",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "KakaoTalk"
+ },
+ "10788": {
+  "match": "exact",
+  "tdts_app_id": 16,
+  "tdts_cat_id": 142,
+  "tdts_name": "Kaspersky",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Kaspersky"
+ },
+ "10790": {
+  "match": "exact",
+  "tdts_app_id": 183,
+  "tdts_cat_id": 132,
+  "tdts_name": "KBS",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "KBS"
+ },
+ "10793": {
+  "match": "fuzzy",
+  "tdts_app_id": 86,
+  "tdts_cat_id": 128,
+  "tdts_name": "KikMessenger",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Kik Messenger"
+ },
+ "10796": {
+  "match": "exact",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 129,
+  "tdts_name": "Fileguri",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Fileguri"
+ },
+ "10798": {
+  "match": "containment",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 140,
+  "tdts_name": "Kiwoom",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Kiwoom Securities"
+ },
+ "10799": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Korean online movie/channel/music"
+ },
+ "10801": {
+  "match": "exact",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 139,
+  "tdts_name": "Kproxy",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "KProxy"
+ },
+ "10805": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "LA Times"
+ },
+ "10806": {
+  "match": "fuzzy",
+  "tdts_app_id": 131,
+  "tdts_cat_id": 132,
+  "tdts_name": "LastFM",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Last.fm"
+ },
+ "10810": {
+  "match": "exact",
+  "tdts_app_id": 141,
+  "tdts_cat_id": 131,
+  "tdts_name": "LeapFile",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "LeapFILE"
+ },
+ "10815": {
+  "match": "containment",
+  "tdts_app_id": 118,
+  "tdts_cat_id": 131,
+  "tdts_name": "Letitbit.net",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Letitbit"
+ },
+ "10817": {
+  "match": "exact",
+  "tdts_app_id": 59,
+  "tdts_cat_id": 132,
+  "tdts_name": "Letv",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "LeTV"
+ },
+ "10826": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Line Messenger"
+ },
+ "10827": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "LINE Games"
+ },
+ "10828": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Line2"
+ },
+ "10829": {
+  "match": "exact",
+  "tdts_app_id": 16,
+  "tdts_cat_id": 136,
+  "tdts_name": "Lineage",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Lineage"
+ },
+ "10830": {
+  "match": "exact",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn"
+ },
+ "10831": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Connections"
+ },
+ "10832": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Contacts"
+ },
+ "10833": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Inbox"
+ },
+ "10834": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Jobs"
+ },
+ "10836": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Mobile"
+ },
+ "10837": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Profile"
+ },
+ "10838": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Profile Edit"
+ },
+ "10839": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LinkedIn Profile Show"
+ },
+ "10841": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "linked-in.job-search"
+ },
+ "10843": {
+  "match": "containment",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 147,
+  "tdts_name": "ListProcessor",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "ListProc"
+ },
+ "10845": {
+  "match": "containment",
+  "tdts_app_id": 7,
+  "tdts_cat_id": 132,
+  "tdts_name": "QQLive",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Live"
+ },
+ "10846": {
+  "match": "exact",
+  "tdts_app_id": 31,
+  "tdts_cat_id": 132,
+  "tdts_name": "Live365",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "live365"
+ },
+ "10847": {
+  "match": "exact",
+  "tdts_app_id": 66,
+  "tdts_cat_id": 133,
+  "tdts_name": "Livedoor",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Livedoor"
+ },
+ "10851": {
+  "match": "exact",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 152,
+  "tdts_name": "Livejournal",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LiveJournal"
+ },
+ "10852": {
+  "match": "containment",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 152,
+  "tdts_name": "Livejournal",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "LiveJournal Post"
+ },
+ "10856": {
+  "match": "exact",
+  "tdts_app_id": 151,
+  "tdts_cat_id": 132,
+  "tdts_name": "Livestream",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Livestream"
+ },
+ "10860": {
+  "match": "exact",
+  "tdts_app_id": 64,
+  "tdts_cat_id": 139,
+  "tdts_name": "LogMeIn",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "LogMeIn"
+ },
+ "10861": {
+  "match": "containment",
+  "tdts_app_id": 64,
+  "tdts_cat_id": 139,
+  "tdts_name": "LogMeIn",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "LogMeIn Rescue"
+ },
+ "10863": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Los Angeles Times"
+ },
+ "10869": {
+  "match": "exact",
+  "tdts_app_id": 100,
+  "tdts_cat_id": 133,
+  "tdts_name": "Mail.ru",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Mail.ru"
+ },
+ "10870": {
+  "match": "containment",
+  "tdts_app_id": 100,
+  "tdts_cat_id": 133,
+  "tdts_name": "Mail.ru",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Mail.ru Attachment"
+ },
+ "10872": {
+  "match": "exact",
+  "tdts_app_id": 83,
+  "tdts_cat_id": 133,
+  "tdts_name": "MailChimp",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "MailChimp"
+ },
+ "10875": {
+  "match": "exact",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 136,
+  "tdts_name": "MapleStory",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "MapleStory"
+ },
+ "10885": {
+  "match": "exact",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 142,
+  "tdts_name": "McAfee",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "McAfee"
+ },
+ "10890": {
+  "match": "exact",
+  "tdts_app_id": 45,
+  "tdts_cat_id": 131,
+  "tdts_name": "Mediafire",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "MediaFire"
+ },
+ "10895": {
+  "match": "exact",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 152,
+  "tdts_name": "Meetup",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Meetup"
+ },
+ "10896": {
+  "match": "exact",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 139,
+  "tdts_name": "Megaproxy",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Megaproxy"
+ },
+ "10897": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 131,
+  "tdts_name": "MEGA",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "Mega"
+ },
+ "10899": {
+  "match": "exact",
+  "tdts_app_id": 167,
+  "tdts_cat_id": 131,
+  "tdts_name": "Mendeley",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Mendeley"
+ },
+ "10903": {
+  "match": "containment",
+  "tdts_app_id": 124,
+  "tdts_cat_id": 148,
+  "tdts_name": "webster",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "Merriam-Webster"
+ },
+ "10905": {
+  "match": "exact",
+  "tdts_app_id": 27,
+  "tdts_cat_id": 132,
+  "tdts_name": "Metacafe",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Metacafe"
+ },
+ "10908": {
+  "match": "exact",
+  "tdts_app_id": 201,
+  "tdts_cat_id": 132,
+  "tdts_name": "Mgoon",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Mgoon"
+ },
+ "10910": {
+  "match": "containment",
+  "tdts_app_id": 69,
+  "tdts_cat_id": 141,
+  "tdts_name": "Microsoft.com",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Microsoft"
+ },
+ "10914": {
+  "match": "containment",
+  "tdts_app_id": 187,
+  "tdts_cat_id": 141,
+  "tdts_name": "Microsoft bingbot crawler",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Microsoft Bing"
+ },
+ "10920": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 145,
+  "tdts_name": "Microsoft Office",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Microsoft Office"
+ },
+ "10921": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 131,
+  "tdts_name": "OneDrive",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "Microsoft OneDrive"
+ },
+ "10929": {
+  "match": "containment",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 136,
+  "tdts_name": "XBOX",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Microsoft Xbox"
+ },
+ "10930": {
+  "match": "containment",
+  "tdts_app_id": 90,
+  "tdts_cat_id": 147,
+  "tdts_name": "dasp",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Midasplayer"
+ },
+ "10936": {
+  "match": "exact",
+  "tdts_app_id": 156,
+  "tdts_cat_id": 136,
+  "tdts_name": "Minecraft",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Minecraft"
+ },
+ "10938": {
+  "match": "containment",
+  "tdts_app_id": 361,
+  "tdts_cat_id": 136,
+  "tdts_name": "Nintendo",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Nintendo WFC"
+ },
+ "10939": {
+  "match": "exact",
+  "tdts_app_id": 58,
+  "tdts_cat_id": 128,
+  "tdts_name": "MissLee",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "MissLee"
+ },
+ "10940": {
+  "match": "containment",
+  "tdts_app_id": 188,
+  "tdts_cat_id": 136,
+  "tdts_name": "Smite",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "MIT"
+ },
+ "10941": {
+  "match": "containment",
+  "tdts_app_id": 143,
+  "tdts_cat_id": 152,
+  "tdts_name": "Mixi.jp",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Mixi"
+ },
+ "10943": {
+  "match": "containment",
+  "tdts_app_id": 204,
+  "tdts_cat_id": 132,
+  "tdts_name": "MLB.com",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "MLB"
+ },
+ "10950": {
+  "match": "containment",
+  "tdts_app_id": 71,
+  "tdts_cat_id": 136,
+  "tdts_name": "Monster Hunter Frontier Z",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Monster"
+ },
+ "10952": {
+  "match": "containment",
+  "tdts_app_id": 155,
+  "tdts_cat_id": 141,
+  "tdts_name": "Fool",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Motley Fool"
+ },
+ "10957": {
+  "match": "containment",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 148,
+  "tdts_name": "phone",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "MS Windows Phone"
+ },
+ "10958": {
+  "match": "containment",
+  "tdts_app_id": 103,
+  "tdts_cat_id": 141,
+  "tdts_name": "MSN.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "MSN"
+ },
+ "10959": {
+  "match": "containment",
+  "tdts_app_id": 63,
+  "tdts_cat_id": 132,
+  "tdts_name": "MTV.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "MTV"
+ },
+ "10962": {
+  "match": "containment",
+  "tdts_app_id": 50,
+  "tdts_cat_id": 152,
+  "tdts_name": "FMyLife",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "MyLife"
+ },
+ "10965": {
+  "match": "exact",
+  "tdts_app_id": 12,
+  "tdts_cat_id": 152,
+  "tdts_name": "MySpace",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Myspace"
+ },
+ "10966": {
+  "match": "containment",
+  "tdts_app_id": 12,
+  "tdts_cat_id": 152,
+  "tdts_name": "MySpace",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Myspace Photos"
+ },
+ "10967": {
+  "match": "containment",
+  "tdts_app_id": 12,
+  "tdts_cat_id": 152,
+  "tdts_name": "MySpace",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Myspace Videos"
+ },
+ "10968": {
+  "match": "exact",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 135,
+  "tdts_name": "MySQL",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "MySQL"
+ },
+ "10976": {
+  "match": "exact",
+  "tdts_app_id": 221,
+  "tdts_cat_id": 141,
+  "tdts_name": "National Geographic",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "National Geographic"
+ },
+ "10980": {
+  "match": "exact",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 141,
+  "tdts_name": "Naver",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Naver"
+ },
+ "10982": {
+  "match": "exact",
+  "tdts_app_id": 104,
+  "tdts_cat_id": 152,
+  "tdts_name": "Naver-blog",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Naver Blog"
+ },
+ "10984": {
+  "match": "containment",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 141,
+  "tdts_name": "Naver",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Naver Cafe"
+ },
+ "10985": {
+  "match": "containment",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 141,
+  "tdts_name": "Naver",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Naver Mail"
+ },
+ "10987": {
+  "match": "containment",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 141,
+  "tdts_name": "Naver",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Naverisk"
+ },
+ "10989": {
+  "match": "containment",
+  "tdts_app_id": 502,
+  "tdts_cat_id": 136,
+  "tdts_name": "NBA 2K18",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "NBA"
+ },
+ "10994": {
+  "match": "containment",
+  "tdts_app_id": 138,
+  "tdts_cat_id": 136,
+  "tdts_name": "DragonNest",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Nest"
+ },
+ "10995": {
+  "match": "exact",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 134,
+  "tdts_name": "Net2Phone",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Net2Phone"
+ },
+ "10996": {
+  "match": "containment",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 133,
+  "tdts_name": "NETEASE Mail",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "NetEase"
+ },
+ "10997": {
+  "match": "exact",
+  "tdts_app_id": 132,
+  "tdts_cat_id": 132,
+  "tdts_name": "Netflix",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Netflix"
+ },
+ "11011": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "New York Times"
+ },
+ "11018": {
+  "match": "exact",
+  "tdts_app_id": 162,
+  "tdts_cat_id": 136,
+  "tdts_name": "Nexon",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Nexon"
+ },
+ "11021": {
+  "match": "exact",
+  "tdts_app_id": 106,
+  "tdts_cat_id": 139,
+  "tdts_name": "Ngrok",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Ngrok"
+ },
+ "11023": {
+  "match": "exact",
+  "tdts_app_id": 45,
+  "tdts_cat_id": 132,
+  "tdts_name": "NHL",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "NHL"
+ },
+ "11027": {
+  "match": "containment",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 133,
+  "tdts_name": "Nifty",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Nifty Corporation"
+ },
+ "11029": {
+  "match": "exact",
+  "tdts_app_id": 26,
+  "tdts_cat_id": 134,
+  "tdts_name": "Nimbuzz",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Nimbuzz"
+ },
+ "11030": {
+  "match": "exact",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 152,
+  "tdts_name": "Ning",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Ning"
+ },
+ "11039": {
+  "match": "containment",
+  "tdts_app_id": 121,
+  "tdts_cat_id": 152,
+  "tdts_name": "Aol-Answers",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "NSW"
+ },
+ "11045": {
+  "match": "containment",
+  "tdts_app_id": 148,
+  "tdts_cat_id": 132,
+  "tdts_name": "Yinyuetai",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "NYU"
+ },
+ "11047": {
+  "match": "exact",
+  "tdts_app_id": 82,
+  "tdts_cat_id": 133,
+  "tdts_name": "OCN",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "OCN"
+ },
+ "11048": {
+  "match": "exact",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 152,
+  "tdts_name": "Odnoklassniki",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Odnoklassniki"
+ },
+ "11050": {
+  "match": "containment",
+  "tdts_app_id": 254,
+  "tdts_cat_id": 145,
+  "tdts_name": "Microsoft Office 365",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Office 365"
+ },
+ "11060": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Online File Folder"
+ },
+ "11062": {
+  "match": "exact",
+  "tdts_app_id": 7,
+  "tdts_cat_id": 134,
+  "tdts_name": "ooVoo",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "ooVoo"
+ },
+ "11063": {
+  "match": "exact",
+  "tdts_app_id": 47,
+  "tdts_cat_id": 132,
+  "tdts_name": "Ooyala",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Ooyala"
+ },
+ "11073": {
+  "match": "containment",
+  "tdts_app_id": 118,
+  "tdts_cat_id": 139,
+  "tdts_name": "Opera VPN",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Opera"
+ },
+ "11076": {
+  "match": "exact",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 135,
+  "tdts_name": "Oracle",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Oracle"
+ },
+ "11077": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 135,
+  "tdts_name": "Oracle",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Oracle Business Intelligence"
+ },
+ "11087": {
+  "match": "exact",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 142,
+  "tdts_name": "Panda",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Panda"
+ },
+ "11088": {
+  "match": "exact",
+  "tdts_app_id": 38,
+  "tdts_cat_id": 129,
+  "tdts_name": "Pando",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Pando"
+ },
+ "11089": {
+  "match": "exact",
+  "tdts_app_id": 101,
+  "tdts_cat_id": 132,
+  "tdts_name": "Pandora",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Pandora"
+ },
+ "11090": {
+  "match": "containment",
+  "tdts_app_id": 101,
+  "tdts_cat_id": 132,
+  "tdts_name": "Pandora",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Pandora Audio"
+ },
+ "11091": {
+  "match": "containment",
+  "tdts_app_id": 101,
+  "tdts_cat_id": 132,
+  "tdts_name": "Pandora",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Pandora TV"
+ },
+ "11093": {
+  "match": "exact",
+  "tdts_app_id": 31,
+  "tdts_cat_id": 136,
+  "tdts_name": "PartyPoker",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "PartyPoker"
+ },
+ "11096": {
+  "match": "exact",
+  "tdts_app_id": 166,
+  "tdts_cat_id": 152,
+  "tdts_name": "Path",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Path"
+ },
+ "11099": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 141,
+  "tdts_name": "PayPal.com",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "PayPal"
+ },
+ "11101": {
+  "match": "exact",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 133,
+  "tdts_name": "PChome",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Pchome"
+ },
+ "11102": {
+  "match": "exact",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 129,
+  "tdts_name": "ClubBox",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Clubbox"
+ },
+ "11108": {
+  "match": "exact",
+  "tdts_app_id": 223,
+  "tdts_cat_id": 132,
+  "tdts_name": "Periscope",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Periscope"
+ },
+ "11111": {
+  "match": "exact",
+  "tdts_app_id": 48,
+  "tdts_cat_id": 132,
+  "tdts_name": "Photobucket",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Photobucket"
+ },
+ "11112": {
+  "match": "containment",
+  "tdts_app_id": 54,
+  "tdts_cat_id": 139,
+  "tdts_name": "Phproxy",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "PHP"
+ },
+ "11114": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Photos"
+ },
+ "11119": {
+  "match": "exact",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 152,
+  "tdts_name": "Pinterest",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Pinterest"
+ },
+ "11137": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 136,
+  "tdts_name": "Pogo",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Pogoplug"
+ },
+ "11141": {
+  "match": "containment",
+  "tdts_app_id": 305,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon AppStream",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "PPStream"
+ },
+ "11142": {
+  "match": "containment",
+  "tdts_app_id": 6,
+  "tdts_cat_id": 132,
+  "tdts_name": "PPTV (PPLive)",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "PPTV"
+ },
+ "11158": {
+  "match": "exact",
+  "tdts_app_id": 148,
+  "tdts_cat_id": 131,
+  "tdts_name": "PutLocker",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Putlocker"
+ },
+ "11159": {
+  "match": "containment",
+  "tdts_app_id": 241,
+  "tdts_cat_id": 129,
+  "tdts_name": "QDOWN.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "QDown"
+ },
+ "11160": {
+  "match": "exact",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 128,
+  "tdts_name": "QQ/TM",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "QQ"
+ },
+ "11166": {
+  "match": "exact",
+  "tdts_app_id": 140,
+  "tdts_cat_id": 132,
+  "tdts_name": "Qvod/Bobohu",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "QVOD"
+ },
+ "11170": {
+  "match": "fuzzy",
+  "tdts_app_id": 161,
+  "tdts_cat_id": 141,
+  "tdts_name": "Ragingbull",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Raging Bull"
+ },
+ "11171": {
+  "match": "containment",
+  "tdts_app_id": 205,
+  "tdts_cat_id": 141,
+  "tdts_name": "Rakuten Edy",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Rakuten"
+ },
+ "11172": {
+  "match": "exact",
+  "tdts_app_id": 75,
+  "tdts_cat_id": 133,
+  "tdts_name": "Rambler",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Rambler"
+ },
+ "11174": {
+  "match": "exact",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 131,
+  "tdts_name": "Rayfile",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "RayFile"
+ },
+ "11184": {
+  "match": "exact",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 141,
+  "tdts_name": "Rediff.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Rediff.com"
+ },
+ "11197": {
+  "match": "exact",
+  "tdts_app_id": 82,
+  "tdts_cat_id": 136,
+  "tdts_name": "Rockstar Games",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Rockstar games"
+ },
+ "11198": {
+  "match": "exact",
+  "tdts_app_id": 74,
+  "tdts_cat_id": 132,
+  "tdts_name": "Roku",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Roku"
+ },
+ "11202": {
+  "match": "containment",
+  "tdts_app_id": 60,
+  "tdts_cat_id": 132,
+  "tdts_name": "RTSP",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "RT"
+ },
+ "11209": {
+  "match": "containment",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 135,
+  "tdts_name": "Salesforce",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Salesforce.com"
+ },
+ "11210": {
+  "match": "containment",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 135,
+  "tdts_name": "Salesforce",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Salesforce.com Live Agent"
+ },
+ "11211": {
+  "match": "containment",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 140,
+  "tdts_name": "SamsungPoP",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Samsung"
+ },
+ "11214": {
+  "match": "exact",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 132,
+  "tdts_name": "SBS",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SBS"
+ },
+ "11215": {
+  "match": "containment",
+  "tdts_app_id": 104,
+  "tdts_cat_id": 141,
+  "tdts_name": "Edaily",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "ScienceDaily"
+ },
+ "11216": {
+  "match": "containment",
+  "tdts_app_id": 206,
+  "tdts_cat_id": 146,
+  "tdts_name": "direct",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "ScienceDirect"
+ },
+ "11220": {
+  "match": "exact",
+  "tdts_app_id": 70,
+  "tdts_cat_id": 131,
+  "tdts_name": "Scribd",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Scribd"
+ },
+ "11221": {
+  "match": "containment",
+  "tdts_app_id": 70,
+  "tdts_cat_id": 131,
+  "tdts_name": "Scribd",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Scribd Upload"
+ },
+ "11222": {
+  "match": "exact",
+  "tdts_app_id": 199,
+  "tdts_cat_id": 141,
+  "tdts_name": "Babylon ",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Babylon"
+ },
+ "11228": {
+  "match": "exact",
+  "tdts_app_id": 73,
+  "tdts_cat_id": 131,
+  "tdts_name": "Sendspace",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "SendSpace"
+ },
+ "11236": {
+  "match": "containment",
+  "tdts_app_id": 111,
+  "tdts_cat_id": 133,
+  "tdts_name": "T-Online",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Sharepoint Online"
+ },
+ "11239": {
+  "match": "containment",
+  "tdts_app_id": 166,
+  "tdts_cat_id": 152,
+  "tdts_name": "Path",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "ShopAtHome"
+ },
+ "11244": {
+  "match": "containment",
+  "tdts_app_id": 29,
+  "tdts_cat_id": 132,
+  "tdts_name": "SHOUTcast",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SHOUTCast Radio"
+ },
+ "11247": {
+  "match": "exact",
+  "tdts_app_id": 16,
+  "tdts_cat_id": 138,
+  "tdts_name": "ShowMyPC",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "ShowMyPC"
+ },
+ "11248": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SHOWTIME ANYTIME"
+ },
+ "11251": {
+  "match": "exact",
+  "tdts_app_id": 142,
+  "tdts_cat_id": 132,
+  "tdts_name": "Microsoft Silverlight",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Microsoft Silverlight"
+ },
+ "11256": {
+  "match": "exact",
+  "tdts_app_id": 26,
+  "tdts_cat_id": 132,
+  "tdts_name": "Sina Video",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Sina Video"
+ },
+ "11257": {
+  "match": "containment",
+  "tdts_app_id": 56,
+  "tdts_cat_id": 132,
+  "tdts_name": "SiriusXM",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Siri"
+ },
+ "11261": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Skimlinks Ads"
+ },
+ "11263": {
+  "match": "exact",
+  "tdts_app_id": 1,
+  "tdts_cat_id": 134,
+  "tdts_name": "Skype",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Skype"
+ },
+ "11264": {
+  "match": "exact",
+  "tdts_app_id": 76,
+  "tdts_cat_id": 145,
+  "tdts_name": "Skype for Business",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Skype for Business"
+ },
+ "11265": {
+  "match": "exact",
+  "tdts_app_id": 39,
+  "tdts_cat_id": 128,
+  "tdts_name": "Slack",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Slack"
+ },
+ "11266": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Translate",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Slate"
+ },
+ "11270": {
+  "match": "containment",
+  "tdts_app_id": 164,
+  "tdts_cat_id": 131,
+  "tdts_name": "SlideShare.net",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "SlideShare"
+ },
+ "11275": {
+  "match": "exact",
+  "tdts_app_id": 163,
+  "tdts_cat_id": 131,
+  "tdts_name": "SmugMug",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "SmugMug"
+ },
+ "11276": {
+  "match": "exact",
+  "tdts_app_id": 107,
+  "tdts_cat_id": 128,
+  "tdts_name": "Snapchat",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Snapchat"
+ },
+ "11280": {
+  "match": "exact",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 139,
+  "tdts_name": "SoftEther/PacketiX",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "SoftEther"
+ },
+ "11283": {
+  "match": "containment",
+  "tdts_app_id": 27,
+  "tdts_cat_id": 141,
+  "tdts_name": "Sogou.com",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Sogou"
+ },
+ "11284": {
+  "match": "containment",
+  "tdts_app_id": 64,
+  "tdts_cat_id": 132,
+  "tdts_name": "Sohu TV",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Sohu"
+ },
+ "11286": {
+  "match": "containment",
+  "tdts_app_id": 142,
+  "tdts_cat_id": 136,
+  "tdts_name": "Sony PlayStation",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Sony"
+ },
+ "11287": {
+  "match": "exact",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 132,
+  "tdts_name": "SopCast",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SopCast"
+ },
+ "11288": {
+  "match": "containment",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 142,
+  "tdts_name": "Sophos",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Sophos Live Protection"
+ },
+ "11289": {
+  "match": "containment",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 142,
+  "tdts_name": "Sophos",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Sophos Update"
+ },
+ "11290": {
+  "match": "exact",
+  "tdts_app_id": 197,
+  "tdts_cat_id": 129,
+  "tdts_name": "Soribada",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Soribada"
+ },
+ "11291": {
+  "match": "exact",
+  "tdts_app_id": 49,
+  "tdts_cat_id": 131,
+  "tdts_name": "SOS Online Backup",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "SOS Online Backup"
+ },
+ "11293": {
+  "match": "exact",
+  "tdts_app_id": 27,
+  "tdts_cat_id": 129,
+  "tdts_name": "Soulseek",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Soulseek"
+ },
+ "11294": {
+  "match": "exact",
+  "tdts_app_id": 130,
+  "tdts_cat_id": 131,
+  "tdts_name": "SoundCloud",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SoundCloud"
+ },
+ "11298": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Southwest Airlines"
+ },
+ "11302": {
+  "match": "containment",
+  "tdts_app_id": 7,
+  "tdts_cat_id": 141,
+  "tdts_name": "Speedtest.net",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Speedtest"
+ },
+ "11303": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Spiegel Online"
+ },
+ "11306": {
+  "match": "exact",
+  "tdts_app_id": 130,
+  "tdts_cat_id": 132,
+  "tdts_name": "Spotify",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Spotify"
+ },
+ "11312": {
+  "match": "containment",
+  "tdts_app_id": 44,
+  "tdts_cat_id": 129,
+  "tdts_name": "Ares",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Squarespace"
+ },
+ "11325": {
+  "match": "containment",
+  "tdts_app_id": 136,
+  "tdts_cat_id": 152,
+  "tdts_name": "meinVZ/studiVZ",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "studiVZ"
+ },
+ "11326": {
+  "match": "exact",
+  "tdts_app_id": 147,
+  "tdts_cat_id": 141,
+  "tdts_name": "Stumbleupon",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "StumbleUpon"
+ },
+ "11327": {
+  "match": "exact",
+  "tdts_app_id": 145,
+  "tdts_cat_id": 141,
+  "tdts_name": "SugarCRM",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "SugarCRM"
+ },
+ "11328": {
+  "match": "exact",
+  "tdts_app_id": 153,
+  "tdts_cat_id": 131,
+  "tdts_name": "Sugarsync",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "SugarSync"
+ },
+ "11334": {
+  "match": "containment",
+  "tdts_app_id": 139,
+  "tdts_cat_id": 145,
+  "tdts_name": "Office Sway",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Sway"
+ },
+ "11335": {
+  "match": "containment",
+  "tdts_app_id": 39,
+  "tdts_cat_id": 131,
+  "tdts_name": "Symantec Nomdb",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Symantec"
+ },
+ "11339": {
+  "match": "exact",
+  "tdts_app_id": 23,
+  "tdts_cat_id": 152,
+  "tdts_name": "Tagged",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Tagged"
+ },
+ "11340": {
+  "match": "exact",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 134,
+  "tdts_name": "Tango",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Tango"
+ },
+ "11341": {
+  "match": "exact",
+  "tdts_app_id": 247,
+  "tdts_cat_id": 141,
+  "tdts_name": "Taobao",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Taobao"
+ },
+ "11345": {
+  "match": "exact",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 138,
+  "tdts_name": "TeamViewer",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Teamviewer"
+ },
+ "11347": {
+  "match": "exact",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 138,
+  "tdts_name": "Techinline",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "TechInline"
+ },
+ "11350": {
+  "match": "exact",
+  "tdts_app_id": 20,
+  "tdts_cat_id": 132,
+  "tdts_name": "TED",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "TED"
+ },
+ "11355": {
+  "match": "containment",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 152,
+  "tdts_name": "Tencent QQ",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Tencent"
+ },
+ "11356": {
+  "match": "exact",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 152,
+  "tdts_name": "Tencent QQ",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Tencent QQ"
+ },
+ "11370": {
+  "match": "containment",
+  "tdts_app_id": 33,
+  "tdts_cat_id": 141,
+  "tdts_name": "Huffington Post",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "The Huffington post Online news website"
+ },
+ "11375": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "The Seattle Times"
+ },
+ "11383": {
+  "match": "containment",
+  "tdts_app_id": 5,
+  "tdts_cat_id": 132,
+  "tdts_name": "Weather Channel",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "The Weather Channel"
+ },
+ "11391": {
+  "match": "exact",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Time"
+ },
+ "11392": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "TIME.com"
+ },
+ "11393": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Times Internet"
+ },
+ "11394": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Times Union"
+ },
+ "11398": {
+  "match": "exact",
+  "tdts_app_id": 108,
+  "tdts_cat_id": 133,
+  "tdts_name": "Tistory",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Tistory"
+ },
+ "11400": {
+  "match": "exact",
+  "tdts_app_id": 20,
+  "tdts_cat_id": 141,
+  "tdts_name": "Tmall",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Tmall"
+ },
+ "11401": {
+  "match": "containment",
+  "tdts_app_id": 192,
+  "tdts_cat_id": 141,
+  "tdts_name": "Conduit Mobile",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "T-Mobile"
+ },
+ "11405": {
+  "match": "exact",
+  "tdts_app_id": 111,
+  "tdts_cat_id": 133,
+  "tdts_name": "T-Online",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "T-Online"
+ },
+ "11411": {
+  "match": "fuzzy",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 142,
+  "tdts_name": "TrendMicro",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Trend Micro"
+ },
+ "11419": {
+  "match": "exact",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 152,
+  "tdts_name": "Tumblr",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Tumblr"
+ },
+ "11420": {
+  "match": "exact",
+  "tdts_app_id": 95,
+  "tdts_cat_id": 139,
+  "tdts_name": "TunnelBear",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Tunnelbear"
+ },
+ "11424": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "TVonline.cc"
+ },
+ "11425": {
+  "match": "containment",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 152,
+  "tdts_name": "TweetDeck",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Tweet"
+ },
+ "11426": {
+  "match": "exact",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 152,
+  "tdts_name": "TweetDeck",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "TweetDeck"
+ },
+ "11428": {
+  "match": "fuzzy",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 132,
+  "tdts_name": "Twitch.tv",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "TwitchTV"
+ },
+ "11429": {
+  "match": "containment",
+  "tdts_app_id": 94,
+  "tdts_cat_id": 129,
+  "tdts_name": "Phex",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "X"
+ },
+ "11433": {
+  "match": "containment",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 152,
+  "tdts_name": "Twitter",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Twitteriffic"
+ },
+ "11437": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "U.S. Department of Veterans Affairs"
+ },
+ "11450": {
+  "match": "containment",
+  "tdts_app_id": 172,
+  "tdts_cat_id": 148,
+  "tdts_name": "STUN",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "UN"
+ },
+ "11451": {
+  "match": "containment",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 132,
+  "tdts_name": "Crunchyroll",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "UNC"
+ },
+ "11454": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Unite Airlines"
+ },
+ "11455": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "United Airlines"
+ },
+ "11475": {
+  "match": "containment",
+  "tdts_app_id": 52,
+  "tdts_cat_id": 132,
+  "tdts_name": "Ustream.tv",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Ustream"
+ },
+ "11476": {
+  "match": "exact",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 129,
+  "tdts_name": "uTorrent",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "uTorrent"
+ },
+ "11485": {
+  "match": "exact",
+  "tdts_app_id": 192,
+  "tdts_cat_id": 132,
+  "tdts_name": "VEVO",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "VEVO"
+ },
+ "11486": {
+  "match": "containment",
+  "tdts_app_id": 192,
+  "tdts_cat_id": 132,
+  "tdts_name": "VEVO",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "VEVO.com"
+ },
+ "11487": {
+  "match": "exact",
+  "tdts_app_id": 140,
+  "tdts_cat_id": 152,
+  "tdts_name": "Viadeo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Viadeo"
+ },
+ "11489": {
+  "match": "containment",
+  "tdts_app_id": 140,
+  "tdts_cat_id": 148,
+  "tdts_name": "Device",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Vice"
+ },
+ "11495": {
+  "match": "exact",
+  "tdts_app_id": 197,
+  "tdts_cat_id": 132,
+  "tdts_name": "Vimeo",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Vimeo"
+ },
+ "11498": {
+  "match": "containment",
+  "tdts_app_id": 20,
+  "tdts_cat_id": 152,
+  "tdts_name": "VKontakte",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "VK"
+ },
+ "11503": {
+  "match": "containment",
+  "tdts_app_id": 101,
+  "tdts_cat_id": 128,
+  "tdts_name": "Voxer",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Vox"
+ },
+ "11505": {
+  "match": "exact",
+  "tdts_app_id": 198,
+  "tdts_cat_id": 132,
+  "tdts_name": "Vube",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Vube"
+ },
+ "11509": {
+  "match": "containment",
+  "tdts_app_id": 145,
+  "tdts_cat_id": 152,
+  "tdts_name": "GREE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Walgreens"
+ },
+ "11514": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Washington Times"
+ },
+ "11515": {
+  "match": "containment",
+  "tdts_app_id": 44,
+  "tdts_cat_id": 129,
+  "tdts_name": "Ares",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "WD softwares Download/Update"
+ },
+ "11520": {
+  "match": "exact",
+  "tdts_app_id": 228,
+  "tdts_cat_id": 141,
+  "tdts_name": "WeatherBug",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "WeatherBug"
+ },
+ "11521": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "WeatherLink"
+ },
+ "11522": {
+  "match": "exact",
+  "tdts_app_id": 42,
+  "tdts_cat_id": 133,
+  "tdts_name": "WEB.DE",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Web.de"
+ },
+ "11523": {
+  "match": "fuzzy",
+  "tdts_app_id": 226,
+  "tdts_cat_id": 141,
+  "tdts_name": "Web-crawler",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Webcrawler"
+ },
+ "11529": {
+  "match": "containment",
+  "tdts_app_id": 124,
+  "tdts_cat_id": 148,
+  "tdts_name": "webster",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Webs"
+ },
+ "11530": {
+  "match": "exact",
+  "tdts_app_id": 79,
+  "tdts_cat_id": 145,
+  "tdts_name": "Websense",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Websense"
+ },
+ "11531": {
+  "match": "exact",
+  "tdts_app_id": 137,
+  "tdts_cat_id": 141,
+  "tdts_name": "Webshots",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "WebShots"
+ },
+ "11534": {
+  "match": "exact",
+  "tdts_app_id": 106,
+  "tdts_cat_id": 128,
+  "tdts_name": "WeChat",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "WeChat"
+ },
+ "11536": {
+  "match": "exact",
+  "tdts_app_id": 151,
+  "tdts_cat_id": 152,
+  "tdts_name": "Weibo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Weibo"
+ },
+ "11540": {
+  "match": "containment",
+  "tdts_app_id": 135,
+  "tdts_cat_id": 141,
+  "tdts_name": "Wetpaint",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "wetpaint entertainment"
+ },
+ "11541": {
+  "match": "exact",
+  "tdts_app_id": 149,
+  "tdts_cat_id": 131,
+  "tdts_name": "Wetransfer",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "WeTransfer"
+ },
+ "11542": {
+  "match": "exact",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 128,
+  "tdts_name": "WhatsApp",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Whatsapp"
+ },
+ "11551": {
+  "match": "exact",
+  "tdts_app_id": 133,
+  "tdts_cat_id": 141,
+  "tdts_name": "Wikidot",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "wikidot"
+ },
+ "11553": {
+  "match": "fuzzy",
+  "tdts_app_id": 232,
+  "tdts_cat_id": 141,
+  "tdts_name": "Wikipedia",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "Wikimedia"
+ },
+ "11554": {
+  "match": "exact",
+  "tdts_app_id": 232,
+  "tdts_cat_id": 141,
+  "tdts_name": "Wikipedia",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Wikipedia"
+ },
+ "11562": {
+  "match": "containment",
+  "tdts_app_id": 1,
+  "tdts_cat_id": 132,
+  "tdts_name": "Windows Media Player",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Windows Media"
+ },
+ "11563": {
+  "match": "containment",
+  "tdts_app_id": 125,
+  "tdts_cat_id": 148,
+  "tdts_name": "phone",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Windows Phone sites"
+ },
+ "11574": {
+  "match": "exact",
+  "tdts_app_id": 49,
+  "tdts_cat_id": 152,
+  "tdts_name": "WordPress",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Wordpress"
+ },
+ "11582": {
+  "match": "containment",
+  "tdts_app_id": 72,
+  "tdts_cat_id": 132,
+  "tdts_name": "WSJ Live",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "WSJ"
+ },
+ "11588": {
+  "match": "containment",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 136,
+  "tdts_name": "XBOX",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Xbox Live"
+ },
+ "11589": {
+  "match": "containment",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 136,
+  "tdts_name": "XBOX",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Xbox Live sites"
+ },
+ "11592": {
+  "match": "exact",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 152,
+  "tdts_name": "Xing",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "XING"
+ },
+ "11599": {
+  "match": "containment",
+  "tdts_app_id": 233,
+  "tdts_cat_id": 136,
+  "tdts_name": "Y8-Y8",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Y8"
+ },
+ "11601": {
+  "match": "exact",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Yahoo"
+ },
+ "11602": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Account"
+ },
+ "11603": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Yahoo Ads"
+ },
+ "11604": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Yahoo Answers"
+ },
+ "11606": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Yahoo Calendar"
+ },
+ "11607": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Yahoo Developer Network"
+ },
+ "11608": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Yahoo Downloads"
+ },
+ "11610": {
+  "match": "exact",
+  "tdts_app_id": 200,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo Finance",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Yahoo Finance"
+ },
+ "11611": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo GeoCities"
+ },
+ "11612": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Yahoo Groups"
+ },
+ "11613": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Lifestyle"
+ },
+ "11614": {
+  "match": "exact",
+  "tdts_app_id": 106,
+  "tdts_cat_id": 133,
+  "tdts_name": "Yahoo Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Yahoo Mail"
+ },
+ "11615": {
+  "match": "exact",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 128,
+  "tdts_name": "Yahoo Messenger",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Yahoo Messenger"
+ },
+ "11616": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Mobage"
+ },
+ "11618": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Yahoo News"
+ },
+ "11619": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Yahoo Personals"
+ },
+ "11621": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Security Center"
+ },
+ "11622": {
+  "match": "exact",
+  "tdts_app_id": 148,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo Shopping",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Yahoo Shopping"
+ },
+ "11623": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Yahoo Small Business"
+ },
+ "11625": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Smart TV"
+ },
+ "11626": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Sports"
+ },
+ "11628": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Weather"
+ },
+ "11629": {
+  "match": "containment",
+  "tdts_app_id": 364,
+  "tdts_cat_id": 136,
+  "tdts_name": "Clash Royale",
+  "zenarmor_cat": "Online Education",
+  "zenarmor_name": "Yale"
+ },
+ "11630": {
+  "match": "exact",
+  "tdts_app_id": 54,
+  "tdts_cat_id": 152,
+  "tdts_name": "Yammer",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Yammer"
+ },
+ "11631": {
+  "match": "containment",
+  "tdts_app_id": 155,
+  "tdts_cat_id": 131,
+  "tdts_name": "Yandex.Disk",
+  "zenarmor_cat": "Search",
+  "zenarmor_name": "Yandex"
+ },
+ "11636": {
+  "match": "containment",
+  "tdts_app_id": 97,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yesky.com",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "Yesky"
+ },
+ "11637": {
+  "match": "exact",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 152,
+  "tdts_name": "Yik Yak",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Yik Yak"
+ },
+ "11638": {
+  "match": "exact",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 128,
+  "tdts_name": "Yixin",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "YiXin"
+ },
+ "11640": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Your Online Choices"
+ },
+ "11641": {
+  "match": "exact",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 132,
+  "tdts_name": "Youtube",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Youtube"
+ },
+ "11643": {
+  "match": "containment",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 132,
+  "tdts_name": "Youtube",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Youtube Upload"
+ },
+ "11646": {
+  "match": "exact",
+  "tdts_app_id": 89,
+  "tdts_cat_id": 128,
+  "tdts_name": "YY",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "YY"
+ },
+ "11647": {
+  "match": "exact",
+  "tdts_app_id": 74,
+  "tdts_cat_id": 139,
+  "tdts_name": "Zalmos",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Zalmos"
+ },
+ "11654": {
+  "match": "exact",
+  "tdts_app_id": 127,
+  "tdts_cat_id": 145,
+  "tdts_name": "Zendesk",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Zendesk"
+ },
+ "11655": {
+  "match": "exact",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 139,
+  "tdts_name": "ZenMate",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "ZenMate"
+ },
+ "11661": {
+  "match": "exact",
+  "tdts_app_id": 129,
+  "tdts_cat_id": 131,
+  "tdts_name": "Zippyshare",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Zippyshare"
+ },
+ "11663": {
+  "match": "exact",
+  "tdts_app_id": 237,
+  "tdts_cat_id": 141,
+  "tdts_name": "Zoho",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Zoho"
+ },
+ "11672": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Stores"
+ },
+ "11677": {
+  "match": "containment",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 142,
+  "tdts_name": "Adobe",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Adobe Audience Manager"
+ },
+ "11680": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Online Metrix Ad Analytics"
+ },
+ "11693": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Yahoo Ad Analytics"
+ },
+ "11723": {
+  "match": "fuzzy",
+  "tdts_app_id": 206,
+  "tdts_cat_id": 132,
+  "tdts_name": "Plex.tv",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "PlexTV"
+ },
+ "11728": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Hawaiian Airlines"
+ },
+ "11736": {
+  "match": "containment",
+  "tdts_app_id": 16,
+  "tdts_cat_id": 142,
+  "tdts_name": "Kaspersky",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Kaspersky KSN Service"
+ },
+ "11737": {
+  "match": "containment",
+  "tdts_app_id": 16,
+  "tdts_cat_id": 142,
+  "tdts_name": "Kaspersky",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Kaspersky Update"
+ },
+ "11751": {
+  "match": "containment",
+  "tdts_app_id": 169,
+  "tdts_cat_id": 152,
+  "tdts_name": "Vine",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Mediavine Ads"
+ },
+ "11754": {
+  "match": "containment",
+  "tdts_app_id": 78,
+  "tdts_cat_id": 139,
+  "tdts_name": "BrowSec",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Browsec VPN"
+ },
+ "11755": {
+  "match": "exact",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Line"
+ },
+ "11771": {
+  "match": "exact",
+  "tdts_app_id": 81,
+  "tdts_cat_id": 133,
+  "tdts_name": "Mail.com",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Mail.com"
+ },
+ "11801": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 135,
+  "tdts_name": "Oracle",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Oracle Ads"
+ },
+ "11816": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Iterate"
+ },
+ "11822": {
+  "match": "fuzzy",
+  "tdts_app_id": 34,
+  "tdts_cat_id": 133,
+  "tdts_name": "Yandex.Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Yandex Webmail"
+ },
+ "11824": {
+  "match": "fuzzy",
+  "tdts_app_id": 155,
+  "tdts_cat_id": 131,
+  "tdts_name": "Yandex.Disk",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Yandex Disc"
+ },
+ "11832": {
+  "match": "containment",
+  "tdts_app_id": 95,
+  "tdts_cat_id": 133,
+  "tdts_name": "Gmail",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Gmail Ads"
+ },
+ "11834": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Infonline Ads"
+ },
+ "11837": {
+  "match": "containment",
+  "tdts_app_id": 200,
+  "tdts_cat_id": 129,
+  "tdts_name": "LottoFile",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "OTTO"
+ },
+ "11864": {
+  "match": "containment",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 141,
+  "tdts_name": "eBay",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "eBay Stats"
+ },
+ "11866": {
+  "match": "containment",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 142,
+  "tdts_name": "Microsoft Windows Update",
+  "zenarmor_cat": "System & OS",
+  "zenarmor_name": "Microsoft Windows"
+ },
+ "11873": {
+  "match": "containment",
+  "tdts_app_id": 109,
+  "tdts_cat_id": 133,
+  "tdts_name": "Orange",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Lucky Orange"
+ },
+ "11883": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 152,
+  "tdts_name": "LinkedIn",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "LinkedIn Ads"
+ },
+ "11884": {
+  "match": "containment",
+  "tdts_app_id": 83,
+  "tdts_cat_id": 133,
+  "tdts_name": "MailChimp",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "MailChimp Tracker"
+ },
+ "11889": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Appspot"
+ },
+ "11904": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Facebook CDN"
+ },
+ "11905": {
+  "match": "containment",
+  "tdts_app_id": 243,
+  "tdts_cat_id": 141,
+  "tdts_name": "Expedia",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Expedia Tracker"
+ },
+ "11912": {
+  "match": "containment",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 141,
+  "tdts_name": "ESPN",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "ESPN Sports"
+ },
+ "11922": {
+  "match": "containment",
+  "tdts_app_id": 215,
+  "tdts_cat_id": 147,
+  "tdts_name": "monitor",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Mark Monitor Tracker"
+ },
+ "11924": {
+  "match": "containment",
+  "tdts_app_id": 245,
+  "tdts_cat_id": 141,
+  "tdts_name": "Baidu",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Baidu Ads"
+ },
+ "11926": {
+  "match": "containment",
+  "tdts_app_id": 247,
+  "tdts_cat_id": 141,
+  "tdts_name": "Taobao",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Taobao Ads"
+ },
+ "11944": {
+  "match": "containment",
+  "tdts_app_id": 107,
+  "tdts_cat_id": 128,
+  "tdts_name": "Snapchat",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Snapchat Ads"
+ },
+ "11953": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Amazon Trust Service"
+ },
+ "11963": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Windows Time Service"
+ },
+ "11990": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Century Link CDN"
+ },
+ "11992": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Powerlinks Ads"
+ },
+ "12012": {
+  "match": "containment",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 135,
+  "tdts_name": "Salesforce",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Salesforce Tracker"
+ },
+ "12015": {
+  "match": "exact",
+  "tdts_app_id": 253,
+  "tdts_cat_id": 136,
+  "tdts_name": "Roblox Game",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Roblox Game"
+ },
+ "12022": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Google Trust Service"
+ },
+ "12036": {
+  "match": "containment",
+  "tdts_app_id": 104,
+  "tdts_cat_id": 136,
+  "tdts_name": "RIFT",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Drift Chatbot"
+ },
+ "12064": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 142,
+  "tdts_name": "Avast",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Avast Analytic"
+ },
+ "12066": {
+  "match": "containment",
+  "tdts_app_id": 130,
+  "tdts_cat_id": 132,
+  "tdts_name": "Spotify",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Spotify Ads"
+ },
+ "12070": {
+  "match": "containment",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 135,
+  "tdts_name": "MySQL",
+  "zenarmor_cat": "Database",
+  "zenarmor_name": "MySQL Connection"
+ },
+ "12080": {
+  "match": "exact",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 138,
+  "tdts_name": "Telnet",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Telnet"
+ },
+ "12081": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 138,
+  "tdts_name": "Telnet",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Remote Telnet"
+ },
+ "12082": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 138,
+  "tdts_name": "Telnet",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Telnet over TLS/SSL"
+ },
+ "12092": {
+  "match": "containment",
+  "tdts_app_id": 21,
+  "tdts_cat_id": 138,
+  "tdts_name": "Secure Shell (SSH)",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Secure Shell"
+ },
+ "12093": {
+  "match": "containment",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 133,
+  "tdts_name": "POP3",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Email Access via POP3"
+ },
+ "12094": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Linkworth Ads"
+ },
+ "12095": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Linksalpha Social Media"
+ },
+ "12096": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Link Connector Tracker"
+ },
+ "12100": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "Google Meet"
+ },
+ "12103": {
+  "match": "containment",
+  "tdts_app_id": 28,
+  "tdts_cat_id": 146,
+  "tdts_name": "graphics",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Rap"
+ },
+ "12104": {
+  "match": "containment",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 146,
+  "tdts_name": "NIC Name",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Name"
+ },
+ "12105": {
+  "match": "containment",
+  "tdts_app_id": 145,
+  "tdts_cat_id": 132,
+  "tdts_name": "Kideos",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Deos"
+ },
+ "12107": {
+  "match": "containment",
+  "tdts_app_id": 6,
+  "tdts_cat_id": 142,
+  "tdts_name": "Rising",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Ris"
+ },
+ "12108": {
+  "match": "exact",
+  "tdts_app_id": 193,
+  "tdts_cat_id": 146,
+  "tdts_name": "ATEXSSTR",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "ATEXSSTR"
+ },
+ "12109": {
+  "match": "containment",
+  "tdts_app_id": 29,
+  "tdts_cat_id": 148,
+  "tdts_name": "RLZ DBase",
+  "zenarmor_cat": "Database",
+  "zenarmor_name": "Dbase"
+ },
+ "12110": {
+  "match": "exact",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Link"
+ },
+ "12111": {
+  "match": "containment",
+  "tdts_app_id": 157,
+  "tdts_cat_id": 131,
+  "tdts_name": "AirSet",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Set"
+ },
+ "12112": {
+  "match": "containment",
+  "tdts_app_id": 36,
+  "tdts_cat_id": 147,
+  "tdts_name": "ASA Message Router Object Def.",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Asa Message Router Object"
+ },
+ "12114": {
+  "match": "exact",
+  "tdts_app_id": 90,
+  "tdts_cat_id": 147,
+  "tdts_name": "dasp",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Dasp"
+ },
+ "12115": {
+  "match": "containment",
+  "tdts_app_id": 94,
+  "tdts_cat_id": 129,
+  "tdts_name": "Phex",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Ph"
+ },
+ "12116": {
+  "match": "containment",
+  "tdts_app_id": 171,
+  "tdts_cat_id": 147,
+  "tdts_name": "ntalk",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Talk"
+ },
+ "12117": {
+  "match": "containment",
+  "tdts_app_id": 40,
+  "tdts_cat_id": 145,
+  "tdts_name": "CodeMeter",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Meter"
+ },
+ "12118": {
+  "match": "exact",
+  "tdts_app_id": 243,
+  "tdts_cat_id": 147,
+  "tdts_name": "cal",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Cal"
+ },
+ "12119": {
+  "match": "containment",
+  "tdts_app_id": 129,
+  "tdts_cat_id": 131,
+  "tdts_name": "Zippyshare",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "IPP"
+ },
+ "12120": {
+  "match": "containment",
+  "tdts_app_id": 8,
+  "tdts_cat_id": 129,
+  "tdts_name": "Gnutella",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Tell"
+ },
+ "12121": {
+  "match": "exact",
+  "tdts_app_id": 117,
+  "tdts_cat_id": 148,
+  "tdts_name": "con",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Con"
+ },
+ "12122": {
+  "match": "exact",
+  "tdts_app_id": 119,
+  "tdts_cat_id": 148,
+  "tdts_name": "ns",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "NS"
+ },
+ "12123": {
+  "match": "exact",
+  "tdts_app_id": 126,
+  "tdts_cat_id": 148,
+  "tdts_name": "vid",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Vid"
+ },
+ "12124": {
+  "match": "containment",
+  "tdts_app_id": 88,
+  "tdts_cat_id": 139,
+  "tdts_name": "SurfEasy",
+  "zenarmor_cat": "Generic TCPIP",
+  "zenarmor_name": "Surf"
+ },
+ "12126": {
+  "match": "exact",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 135,
+  "tdts_name": "MongoDB",
+  "zenarmor_cat": "Database",
+  "zenarmor_name": "MongoDB"
+ },
+ "12133": {
+  "match": "exact",
+  "tdts_app_id": 86,
+  "tdts_cat_id": 141,
+  "tdts_name": "Google Earth",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Earth"
+ },
+ "12135": {
+  "match": "containment",
+  "tdts_app_id": 185,
+  "tdts_cat_id": 148,
+  "tdts_name": "SSL/TLS",
+  "zenarmor_cat": "VOIP",
+  "zenarmor_name": "Skinny Client Control Protocol over SSL/TLS"
+ },
+ "12137": {
+  "match": "containment",
+  "tdts_app_id": 222,
+  "tdts_cat_id": 141,
+  "tdts_name": "HTTP",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "DNS over HTTPS"
+ },
+ "12140": {
+  "match": "containment",
+  "tdts_app_id": 2,
+  "tdts_cat_id": 133,
+  "tdts_name": "POP3",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Secure Email Access via POP3"
+ },
+ "12141": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "VOIP",
+  "zenarmor_name": "Realtime Audio/Video Transport"
+ },
+ "12142": {
+  "match": "fuzzy",
+  "tdts_app_id": 92,
+  "tdts_cat_id": 137,
+  "tdts_name": "DCE-RPC",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "DCERPC"
+ },
+ "12144": {
+  "match": "containment",
+  "tdts_app_id": 28,
+  "tdts_cat_id": 136,
+  "tdts_name": "Second Life",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Second Life Game"
+ },
+ "12145": {
+  "match": "containment",
+  "tdts_app_id": 74,
+  "tdts_cat_id": 132,
+  "tdts_name": "Roku",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "RokuTV Ads"
+ },
+ "12146": {
+  "match": "containment",
+  "tdts_app_id": 165,
+  "tdts_cat_id": 141,
+  "tdts_name": "Naver",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Naver Ads"
+ },
+ "12152": {
+  "match": "exact",
+  "tdts_app_id": 109,
+  "tdts_cat_id": 137,
+  "tdts_name": "SSDP",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "SSDP"
+ },
+ "12153": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 135,
+  "tdts_name": "Oracle",
+  "zenarmor_cat": "Database",
+  "zenarmor_name": "Oracle DB"
+ },
+ "12184": {
+  "match": "containment",
+  "tdts_app_id": 103,
+  "tdts_cat_id": 136,
+  "tdts_name": "Blizzard Entertainment",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "Blizz"
+ },
+ "12185": {
+  "match": "exact",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 145,
+  "tdts_name": "Zoom",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "Zoom"
+ },
+ "12187": {
+  "match": "exact",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 138,
+  "tdts_name": "GoToMeeting",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "GoToMeeting"
+ },
+ "12190": {
+  "match": "exact",
+  "tdts_app_id": 166,
+  "tdts_cat_id": 131,
+  "tdts_name": "IDrive",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "iDrive"
+ },
+ "12195": {
+  "match": "exact",
+  "tdts_app_id": 118,
+  "tdts_cat_id": 139,
+  "tdts_name": "Opera VPN",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Opera VPN"
+ },
+ "12199": {
+  "match": "containment",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 142,
+  "tdts_name": "BitDefender",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Bitdefender Updates"
+ },
+ "12207": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Ultima Online Outlands"
+ },
+ "12211": {
+  "match": "containment",
+  "tdts_app_id": 12,
+  "tdts_cat_id": 145,
+  "tdts_name": "Webex",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "Cisco Webex"
+ },
+ "12212": {
+  "match": "containment",
+  "tdts_app_id": 361,
+  "tdts_cat_id": 136,
+  "tdts_name": "Nintendo",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Nintendo Games"
+ },
+ "12220": {
+  "match": "exact",
+  "tdts_app_id": 363,
+  "tdts_cat_id": 136,
+  "tdts_name": "Clash of Clans",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Clash of Clans"
+ },
+ "12228": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Adstime Ads"
+ },
+ "12236": {
+  "match": "containment",
+  "tdts_app_id": 249,
+  "tdts_cat_id": 147,
+  "tdts_name": "tpip",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Smartpipe Ads"
+ },
+ "12249": {
+  "match": "exact",
+  "tdts_app_id": 5,
+  "tdts_cat_id": 137,
+  "tdts_name": "SNMP",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "SNMP"
+ },
+ "12250": {
+  "match": "containment",
+  "tdts_app_id": 5,
+  "tdts_cat_id": 137,
+  "tdts_name": "SNMP",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "SNMP Trap"
+ },
+ "12329": {
+  "match": "containment",
+  "tdts_app_id": 167,
+  "tdts_cat_id": 136,
+  "tdts_name": "War Thunder",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "War Thunder Game"
+ },
+ "12356": {
+  "match": "exact",
+  "tdts_app_id": 249,
+  "tdts_cat_id": 147,
+  "tdts_name": "tpip",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "TPIP"
+ },
+ "12357": {
+  "match": "containment",
+  "tdts_app_id": 68,
+  "tdts_cat_id": 132,
+  "tdts_name": "PIPI",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "PIP"
+ },
+ "12361": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Linkpulse Tracker"
+ },
+ "12366": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Facebook Tracker"
+ },
+ "12368": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Infrastructure Services",
+  "zenarmor_name": "Apple Certificate Service"
+ },
+ "12369": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Software Updates",
+  "zenarmor_name": "Apple Telemetry"
+ },
+ "12380": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Nano Interactive Tracker"
+ },
+ "17511": {
+  "match": "exact",
+  "tdts_app_id": 114,
+  "tdts_cat_id": 139,
+  "tdts_name": "NordVPN",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "NordVPN"
+ },
+ "17520": {
+  "match": "containment",
+  "tdts_app_id": 114,
+  "tdts_cat_id": 132,
+  "tdts_name": "56.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "56.com Video"
+ },
+ "17526": {
+  "match": "exact",
+  "tdts_app_id": 66,
+  "tdts_cat_id": 139,
+  "tdts_name": "ExpressVPN",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "ExpressVPN"
+ },
+ "17528": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Facebook Mobile"
+ },
+ "17529": {
+  "match": "containment",
+  "tdts_app_id": 156,
+  "tdts_cat_id": 152,
+  "tdts_name": "Touch",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "TouchVPN"
+ },
+ "17532": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 132,
+  "tdts_name": "Dailymotion",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Dailymotion Advertising"
+ },
+ "17540": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Browser App"
+ },
+ "17546": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Apple Weather"
+ },
+ "17548": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Apple Calendar"
+ },
+ "17558": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Apple TV"
+ },
+ "17565": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 152,
+  "tdts_name": "Ning",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Net Mining Ads"
+ },
+ "17566": {
+  "match": "exact",
+  "tdts_app_id": 109,
+  "tdts_cat_id": 133,
+  "tdts_name": "Orange",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Orange"
+ },
+ "17577": {
+  "match": "containment",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 128,
+  "tdts_name": "WhatsApp",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Whatsapp File Transfer"
+ },
+ "17582": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Mobile Applications",
+  "zenarmor_name": "Amazon Firestick TV"
+ },
+ "17600": {
+  "match": "containment",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 132,
+  "tdts_name": "Youtube",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Youtube TV"
+ },
+ "17603": {
+  "match": "containment",
+  "tdts_app_id": 206,
+  "tdts_cat_id": 146,
+  "tdts_name": "direct",
+  "zenarmor_cat": "Storage & Backup",
+  "zenarmor_name": "Directupload"
+ },
+ "17604": {
+  "match": "containment",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 132,
+  "tdts_name": "Youtube",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Youtube Kids"
+ },
+ "17612": {
+  "match": "containment",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 128,
+  "tdts_name": "WhatsApp",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Whatsapp Web"
+ },
+ "17614": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Google Cloud"
+ },
+ "17617": {
+  "match": "exact",
+  "tdts_app_id": 55,
+  "tdts_cat_id": 139,
+  "tdts_name": "OpenVPN",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "OpenVPN"
+ },
+ "17622": {
+  "match": "containment",
+  "tdts_app_id": 22,
+  "tdts_cat_id": 134,
+  "tdts_name": "Viber",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Viber Messenger"
+ },
+ "17623": {
+  "match": "exact",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 134,
+  "tdts_name": "TeamSpeak",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Teamspeak"
+ },
+ "17644": {
+  "match": "exact",
+  "tdts_app_id": 1,
+  "tdts_cat_id": 147,
+  "tdts_name": "PPTP",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "PPTP"
+ },
+ "17663": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Apple Ads"
+ },
+ "17688": {
+  "match": "containment",
+  "tdts_app_id": 222,
+  "tdts_cat_id": 136,
+  "tdts_name": "Ubisoft",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Ubisoft Games"
+ },
+ "17690": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Amazon Seller"
+ },
+ "18078": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Google Cache"
+ },
+ "18148": {
+  "match": "exact",
+  "tdts_app_id": 13,
+  "tdts_cat_id": 138,
+  "tdts_name": "Fastviewer",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "FastViewer"
+ },
+ "18266": {
+  "match": "containment",
+  "tdts_app_id": 267,
+  "tdts_cat_id": 141,
+  "tdts_name": "Wish",
+  "zenarmor_cat": "Online Shopping",
+  "zenarmor_name": "Wish.com"
+ },
+ "18271": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Conferencing",
+  "zenarmor_name": "Amazon Chime"
+ },
+ "18284": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Avantlink Ads"
+ },
+ "18292": {
+  "match": "containment",
+  "tdts_app_id": 18,
+  "tdts_cat_id": 134,
+  "tdts_name": "LINE",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Linear"
+ },
+ "18296": {
+  "match": "containment",
+  "tdts_app_id": 60,
+  "tdts_cat_id": 146,
+  "tdts_name": "any private RJE service netrjs",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "RJE"
+ },
+ "18297": {
+  "match": "exact",
+  "tdts_app_id": 5,
+  "tdts_cat_id": 146,
+  "tdts_name": "Echo",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Echo"
+ },
+ "18298": {
+  "match": "exact",
+  "tdts_app_id": 6,
+  "tdts_cat_id": 146,
+  "tdts_name": "Discard",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Discard"
+ },
+ "18300": {
+  "match": "exact",
+  "tdts_app_id": 180,
+  "tdts_cat_id": 148,
+  "tdts_name": "Daytime",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Daytime"
+ },
+ "18313": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Network Time"
+ },
+ "18323": {
+  "match": "containment",
+  "tdts_app_id": 190,
+  "tdts_cat_id": 141,
+  "tdts_name": "QUIC",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Quic UDP Connection"
+ },
+ "18331": {
+  "match": "containment",
+  "tdts_app_id": 202,
+  "tdts_cat_id": 147,
+  "tdts_name": "AFP over TCP",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "AFP"
+ },
+ "18335": {
+  "match": "containment",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 131,
+  "tdts_name": "GitHub",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Git"
+ },
+ "18336": {
+  "match": "containment",
+  "tdts_app_id": 30,
+  "tdts_cat_id": 148,
+  "tdts_name": "LDAP Protocol over TLS SSL (was SLDAP)",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "LDAP"
+ },
+ "18338": {
+  "match": "exact",
+  "tdts_app_id": 40,
+  "tdts_cat_id": 139,
+  "tdts_name": "Kerberos",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Kerberos"
+ },
+ "18354": {
+  "match": "containment",
+  "tdts_app_id": 218,
+  "tdts_cat_id": 145,
+  "tdts_name": "Radacct RADIUS",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Radius"
+ },
+ "18355": {
+  "match": "exact",
+  "tdts_app_id": 179,
+  "tdts_cat_id": 148,
+  "tdts_name": "TFTP",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "TFTP"
+ },
+ "18357": {
+  "match": "exact",
+  "tdts_app_id": 201,
+  "tdts_cat_id": 147,
+  "tdts_name": "DHCPv6 Server",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "DHCPv6 Server"
+ },
+ "18358": {
+  "match": "containment",
+  "tdts_app_id": 51,
+  "tdts_cat_id": 146,
+  "tdts_name": "TACACS-Database Service",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "TACACS"
+ },
+ "18363": {
+  "match": "containment",
+  "tdts_app_id": 56,
+  "tdts_cat_id": 145,
+  "tdts_name": "Docker",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "Docker Rest API"
+ },
+ "18365": {
+  "match": "exact",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 135,
+  "tdts_name": "PostgreSQL",
+  "zenarmor_cat": "Database",
+  "zenarmor_name": "PostgreSQL"
+ },
+ "18371": {
+  "match": "containment",
+  "tdts_app_id": 150,
+  "tdts_cat_id": 131,
+  "tdts_name": "iCloud",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "iCloud Private Relay"
+ },
+ "18374": {
+  "match": "containment",
+  "tdts_app_id": 9,
+  "tdts_cat_id": 139,
+  "tdts_name": "Wujie/UltraSurf",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Ultrasurf"
+ },
+ "18375": {
+  "match": "exact",
+  "tdts_app_id": 120,
+  "tdts_cat_id": 146,
+  "tdts_name": "NetBIOS Name Service",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "NETBIOS Name Service"
+ },
+ "18376": {
+  "match": "exact",
+  "tdts_app_id": 121,
+  "tdts_cat_id": 146,
+  "tdts_name": "NetBIOS Datagram Service",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "NETBIOS Datagram Service"
+ },
+ "18377": {
+  "match": "exact",
+  "tdts_app_id": 122,
+  "tdts_cat_id": 146,
+  "tdts_name": "NetBIOS Session Service",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "NETBIOS Session Service"
+ },
+ "18378": {
+  "match": "containment",
+  "tdts_app_id": 242,
+  "tdts_cat_id": 147,
+  "tdts_name": "submission",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SMTP Submission Port"
+ },
+ "18382": {
+  "match": "exact",
+  "tdts_app_id": 29,
+  "tdts_cat_id": 152,
+  "tdts_name": "Badoo",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Badoo"
+ },
+ "18384": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 142,
+  "tdts_name": "Apple",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Apple Push"
+ },
+ "18385": {
+  "match": "containment",
+  "tdts_app_id": 3,
+  "tdts_cat_id": 152,
+  "tdts_name": "Facebook",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Facebook Messenger"
+ },
+ "18386": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Google Chat"
+ },
+ "18387": {
+  "match": "containment",
+  "tdts_app_id": 4,
+  "tdts_cat_id": 136,
+  "tdts_name": "FIFA",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "FIFA by EA"
+ },
+ "18395": {
+  "match": "containment",
+  "tdts_app_id": 150,
+  "tdts_cat_id": 132,
+  "tdts_name": "ADNstream",
+  "zenarmor_cat": "Instant Messaging",
+  "zenarmor_name": "Stream"
+ },
+ "18400": {
+  "match": "exact",
+  "tdts_app_id": 102,
+  "tdts_cat_id": 132,
+  "tdts_name": "Deezer",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Deezer"
+ },
+ "18406": {
+  "match": "containment",
+  "tdts_app_id": 205,
+  "tdts_cat_id": 132,
+  "tdts_name": "Kaltura.com",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Kaltura"
+ },
+ "18407": {
+  "match": "containment",
+  "tdts_app_id": 37,
+  "tdts_cat_id": 131,
+  "tdts_name": "Docstoc",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "OCS"
+ },
+ "18410": {
+  "match": "containment",
+  "tdts_app_id": 52,
+  "tdts_cat_id": 128,
+  "tdts_name": "SOMA",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "SomaFM"
+ },
+ "18416": {
+  "match": "exact",
+  "tdts_app_id": 162,
+  "tdts_cat_id": 132,
+  "tdts_name": "TuneIn",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "TuneIn"
+ },
+ "18419": {
+  "match": "exact",
+  "tdts_app_id": 124,
+  "tdts_cat_id": 132,
+  "tdts_name": "Vudu",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Vudu"
+ },
+ "18421": {
+  "match": "exact",
+  "tdts_app_id": 97,
+  "tdts_cat_id": 132,
+  "tdts_name": "Yahoo Video",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Yahoo Video"
+ },
+ "18423": {
+  "match": "containment",
+  "tdts_app_id": 234,
+  "tdts_cat_id": 141,
+  "tdts_name": "Amazon",
+  "zenarmor_cat": "Mobile Applications",
+  "zenarmor_name": "Amazon Devices"
+ },
+ "18425": {
+  "match": "exact",
+  "tdts_app_id": 105,
+  "tdts_cat_id": 139,
+  "tdts_name": "ZeroTier",
+  "zenarmor_cat": "Proxy",
+  "zenarmor_name": "Zerotier"
+ },
+ "18450": {
+  "match": "exact",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 128,
+  "tdts_name": "RenRen",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "RenRen"
+ },
+ "18451": {
+  "match": "exact",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 152,
+  "tdts_name": "MeetMe",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Meetme"
+ },
+ "18452": {
+  "match": "exact",
+  "tdts_app_id": 11,
+  "tdts_cat_id": 152,
+  "tdts_name": "Plurk",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Plurk"
+ },
+ "18460": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "RescueTime"
+ },
+ "18462": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Keep Google"
+ },
+ "18466": {
+  "match": "exact",
+  "tdts_app_id": 172,
+  "tdts_cat_id": 148,
+  "tdts_name": "STUN",
+  "zenarmor_cat": "Network Management",
+  "zenarmor_name": "STUN"
+ },
+ "18474": {
+  "match": "containment",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 132,
+  "tdts_name": "Hulu",
+  "zenarmor_cat": "Ads",
+  "zenarmor_name": "Hulu Ads"
+ },
+ "18476": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Chrome Sync"
+ },
+ "18479": {
+  "match": "containment",
+  "tdts_app_id": 246,
+  "tdts_cat_id": 141,
+  "tdts_name": "Yahoo",
+  "zenarmor_cat": "Secure Web Browsing",
+  "zenarmor_name": "Yahoo Onesearch"
+ },
+ "18480": {
+  "match": "containment",
+  "tdts_app_id": 112,
+  "tdts_cat_id": 132,
+  "tdts_name": "Youtube",
+  "zenarmor_cat": "Media Streaming",
+  "zenarmor_name": "Youtube Music"
+ },
+ "18483": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "VOIP",
+  "zenarmor_name": "Google Voice"
+ },
+ "18494": {
+  "match": "containment",
+  "tdts_app_id": 36,
+  "tdts_cat_id": 133,
+  "tdts_name": "Bluewin",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Blue"
+ },
+ "18500": {
+  "match": "containment",
+  "tdts_app_id": 15,
+  "tdts_cat_id": 138,
+  "tdts_name": "GoToMeeting",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Tome"
+ },
+ "18506": {
+  "match": "containment",
+  "tdts_app_id": 197,
+  "tdts_cat_id": 129,
+  "tdts_name": "Soribada",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Ada"
+ },
+ "18509": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 152,
+  "tdts_name": "Ning",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Lightning"
+ },
+ "18543": {
+  "match": "containment",
+  "tdts_app_id": 196,
+  "tdts_cat_id": 129,
+  "tdts_name": "Pruna",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Run"
+ },
+ "18558": {
+  "match": "containment",
+  "tdts_app_id": 123,
+  "tdts_cat_id": 141,
+  "tdts_name": "Dreamwiz",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Dream"
+ },
+ "18566": {
+  "match": "containment",
+  "tdts_app_id": 190,
+  "tdts_cat_id": 141,
+  "tdts_name": "QUIC",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Quickads"
+ },
+ "18572": {
+  "match": "containment",
+  "tdts_app_id": 78,
+  "tdts_cat_id": 141,
+  "tdts_name": "Taiwanlottery",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Otter"
+ },
+ "18602": {
+  "match": "containment",
+  "tdts_app_id": 209,
+  "tdts_cat_id": 146,
+  "tdts_name": "link",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "LinkTrackr"
+ },
+ "18617": {
+  "match": "containment",
+  "tdts_app_id": 67,
+  "tdts_cat_id": 147,
+  "tdts_name": "silverplatter",
+  "zenarmor_cat": "Ad Tracker",
+  "zenarmor_name": "Plat"
+ },
+ "18647": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 152,
+  "tdts_name": "Google+",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Google Proxy"
+ },
+ "18650": {
+  "match": "containment",
+  "tdts_app_id": 90,
+  "tdts_cat_id": 139,
+  "tdts_name": "CyberGhostVPN",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Ghost"
+ },
+ "18680": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 142,
+  "tdts_name": "Panda",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "Bored Panda"
+ },
+ "18697": {
+  "match": "containment",
+  "tdts_app_id": 110,
+  "tdts_cat_id": 152,
+  "tdts_name": "Blogger",
+  "zenarmor_cat": "Blogs",
+  "zenarmor_name": "The Foodie Blogger"
+ },
+ "18782": {
+  "match": "exact",
+  "tdts_app_id": 103,
+  "tdts_cat_id": 133,
+  "tdts_name": "Fastmail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Fastmail"
+ },
+ "18787": {
+  "match": "fuzzy",
+  "tdts_app_id": 92,
+  "tdts_cat_id": 133,
+  "tdts_name": "MyEmail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "MeMail"
+ },
+ "18790": {
+  "match": "exact",
+  "tdts_app_id": 84,
+  "tdts_cat_id": 133,
+  "tdts_name": "Rediff Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Rediff Mail"
+ },
+ "18796": {
+  "match": "exact",
+  "tdts_app_id": 24,
+  "tdts_cat_id": 133,
+  "tdts_name": "Zoho Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Zoho Mail"
+ },
+ "18798": {
+  "match": "containment",
+  "tdts_app_id": 19,
+  "tdts_cat_id": 133,
+  "tdts_name": "Roundcubemail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Roundcube"
+ },
+ "18808": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Sendloop"
+ },
+ "18810": {
+  "match": "containment",
+  "tdts_app_id": 35,
+  "tdts_cat_id": 142,
+  "tdts_name": "TrendMicro Titanium-6-WTP",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Titan"
+ },
+ "18811": {
+  "match": "containment",
+  "tdts_app_id": 17,
+  "tdts_cat_id": 129,
+  "tdts_name": "Thunder",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Thunderbird"
+ },
+ "18817": {
+  "match": "containment",
+  "tdts_app_id": 206,
+  "tdts_cat_id": 146,
+  "tdts_name": "direct",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "DirectIQ"
+ },
+ "18826": {
+  "match": "exact",
+  "tdts_app_id": 114,
+  "tdts_cat_id": 133,
+  "tdts_name": "Lavabit",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Lavabit"
+ },
+ "18829": {
+  "match": "containment",
+  "tdts_app_id": 157,
+  "tdts_cat_id": 146,
+  "tdts_name": "mailq",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "MailQQ"
+ },
+ "18835": {
+  "match": "containment",
+  "tdts_app_id": 215,
+  "tdts_cat_id": 147,
+  "tdts_name": "monitor",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Campaign Monitor"
+ },
+ "18837": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Twilio SendGrid"
+ },
+ "18838": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Moosend"
+ },
+ "18843": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Omnisend"
+ },
+ "18844": {
+  "match": "fuzzy",
+  "tdts_app_id": 40,
+  "tdts_cat_id": 133,
+  "tdts_name": "Smart Mail",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SmartrMail"
+ },
+ "18845": {
+  "match": "containment",
+  "tdts_app_id": 1,
+  "tdts_cat_id": 133,
+  "tdts_name": "SMTP",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SMTP Email Relay Services"
+ },
+ "18847": {
+  "match": "containment",
+  "tdts_app_id": 107,
+  "tdts_cat_id": 139,
+  "tdts_name": "Pagekite",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Kit"
+ },
+ "18849": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SendWorks"
+ },
+ "18864": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SendBlaster"
+ },
+ "18865": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "Sendlane"
+ },
+ "18866": {
+  "match": "containment",
+  "tdts_app_id": 152,
+  "tdts_cat_id": 146,
+  "tdts_name": "send",
+  "zenarmor_cat": "Email",
+  "zenarmor_name": "SendPulse"
+ },
+ "18874": {
+  "match": "containment",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 142,
+  "tdts_name": "Adobe",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Adobe Experience Cloud"
+ },
+ "18878": {
+  "match": "containment",
+  "tdts_app_id": 251,
+  "tdts_cat_id": 145,
+  "tdts_name": "Genesys Meeting Center",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Genesys"
+ },
+ "18879": {
+  "match": "containment",
+  "tdts_app_id": 217,
+  "tdts_cat_id": 136,
+  "tdts_name": "Tera",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Interactions"
+ },
+ "18881": {
+  "match": "containment",
+  "tdts_app_id": 139,
+  "tdts_cat_id": 141,
+  "tdts_name": "Nice264",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "Nice"
+ },
+ "18884": {
+  "match": "exact",
+  "tdts_app_id": 5,
+  "tdts_cat_id": 135,
+  "tdts_name": "SAP",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "SAP"
+ },
+ "18895": {
+  "match": "containment",
+  "tdts_app_id": 231,
+  "tdts_cat_id": 141,
+  "tdts_name": "Internet Archive",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Hive"
+ },
+ "18902": {
+  "match": "containment",
+  "tdts_app_id": 226,
+  "tdts_cat_id": 129,
+  "tdts_name": "APPLEFILE",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "eFile"
+ },
+ "18905": {
+  "match": "containment",
+  "tdts_app_id": 46,
+  "tdts_cat_id": 145,
+  "tdts_name": "Cups",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "UPS"
+ },
+ "18913": {
+  "match": "containment",
+  "tdts_app_id": 106,
+  "tdts_cat_id": 139,
+  "tdts_name": "Ngrok",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Grok"
+ },
+ "18929": {
+  "match": "containment",
+  "tdts_app_id": 134,
+  "tdts_cat_id": 152,
+  "tdts_name": "Xing",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "ING"
+ },
+ "18931": {
+  "match": "containment",
+  "tdts_app_id": 233,
+  "tdts_cat_id": 129,
+  "tdts_name": "Tdisk",
+  "zenarmor_cat": "Business Tools",
+  "zenarmor_name": "TD"
+ },
+ "18937": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "ClickTime"
+ },
+ "18941": {
+  "match": "containment",
+  "tdts_app_id": 25,
+  "tdts_cat_id": 146,
+  "tdts_name": "Time",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Dreamstime"
+ },
+ "18950": {
+  "match": "containment",
+  "tdts_app_id": 74,
+  "tdts_cat_id": 132,
+  "tdts_name": "Roku",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Heroku"
+ },
+ "18959": {
+  "match": "exact",
+  "tdts_app_id": 162,
+  "tdts_cat_id": 131,
+  "tdts_name": "Egnyte",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Egnyte"
+ },
+ "18961": {
+  "match": "exact",
+  "tdts_app_id": 40,
+  "tdts_cat_id": 131,
+  "tdts_name": "Baidu Cloud",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Baidu Cloud"
+ },
+ "18964": {
+  "match": "exact",
+  "tdts_app_id": 87,
+  "tdts_cat_id": 131,
+  "tdts_name": "Naver Cloud",
+  "zenarmor_cat": "Cloud Services",
+  "zenarmor_name": "Naver Cloud"
+ },
+ "18967": {
+  "match": "containment",
+  "tdts_app_id": 32,
+  "tdts_cat_id": 131,
+  "tdts_name": "MEGA",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Megacloud"
+ },
+ "18981": {
+  "match": "containment",
+  "tdts_app_id": 117,
+  "tdts_cat_id": 141,
+  "tdts_name": "eTorrent",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "LimeTorrents"
+ },
+ "18986": {
+  "match": "exact",
+  "tdts_app_id": 62,
+  "tdts_cat_id": 129,
+  "tdts_name": "eMule",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "eMule"
+ },
+ "18987": {
+  "match": "exact",
+  "tdts_app_id": 72,
+  "tdts_cat_id": 131,
+  "tdts_name": "Rapidshare",
+  "zenarmor_cat": "File Transfer",
+  "zenarmor_name": "Rapidshare"
+ },
+ "18992": {
+  "match": "exact",
+  "tdts_app_id": 88,
+  "tdts_cat_id": 136,
+  "tdts_name": "Supercell",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Supercell"
+ },
+ "18995": {
+  "match": "exact",
+  "tdts_app_id": 364,
+  "tdts_cat_id": 136,
+  "tdts_name": "Clash Royale",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Clash Royale"
+ },
+ "19009": {
+  "match": "containment",
+  "tdts_app_id": 41,
+  "tdts_cat_id": 131,
+  "tdts_name": "GitHub",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Github Copilot"
+ },
+ "19010": {
+  "match": "containment",
+  "tdts_app_id": 14,
+  "tdts_cat_id": 142,
+  "tdts_name": "Adobe",
+  "zenarmor_cat": "A.I. Tools",
+  "zenarmor_name": "Adobe Photoshop"
+ },
+ "19013": {
+  "match": "containment",
+  "tdts_app_id": 108,
+  "tdts_cat_id": 132,
+  "tdts_name": "CNTV",
+  "zenarmor_cat": "News",
+  "zenarmor_name": "NTV"
+ },
+ "19015": {
+  "match": "containment",
+  "tdts_app_id": 142,
+  "tdts_cat_id": 136,
+  "tdts_name": "Sony PlayStation",
+  "zenarmor_cat": "Gaming",
+  "zenarmor_name": "Sony PlayStation Remote Play"
+ },
+ "19023": {
+  "match": "containment",
+  "tdts_app_id": 237,
+  "tdts_cat_id": 141,
+  "tdts_name": "Zoho",
+  "zenarmor_cat": "Remote Access",
+  "zenarmor_name": "Zoho Assist"
+ },
+ "19026": {
+  "match": "exact",
+  "tdts_app_id": 10,
+  "tdts_cat_id": 142,
+  "tdts_name": "Norton",
+  "zenarmor_cat": "Online Utility",
+  "zenarmor_name": "Norton"
+ },
+ "19030": {
+  "match": "exact",
+  "tdts_app_id": 38,
+  "tdts_cat_id": 152,
+  "tdts_name": "eHarmony",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Eharmony"
+ },
+ "19031": {
+  "match": "exact",
+  "tdts_app_id": 160,
+  "tdts_cat_id": 152,
+  "tdts_name": "Zoosk",
+  "zenarmor_cat": "Social Network",
+  "zenarmor_name": "Zoosk"
+ }
+}
