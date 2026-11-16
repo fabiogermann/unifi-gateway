@@ -118,31 +118,38 @@ jobs:
           name: rpm-${{ matrix.rpm_arch }}
           path: output/*.rpm
 
+  # Fork: no self-hosted FreeBSD runner. Build inside a real FreeBSD 15 VM
+  # (vmactions/freebsd-vm, QEMU/KVM on ubuntu-latest) — PyInstaller cannot
+  # cross-compile, so the build runs natively under a FreeBSD kernel.
   build-freebsd:
-    runs-on: [self-hosted, freebsd]
-    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
       - name: Extract version
-        id: version
-        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
 
-      - name: Install dependencies
-        run: |
-          python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
+      - name: Build binary + .pkg in a FreeBSD 15 VM
+        uses: vmactions/freebsd-vm@v1
+        with:
+          release: "15"
+          cpu: 3
+          envs: |
+            VERSION
+          prepare: |
+            pkg install -y python313 py313-pip
+          cache-after-prepare: true
+          run: |
+            set -e
+            python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
+            python3 -m PyInstaller ${{ env.PYINSTALLER_ARGS }}
+            ./dist/unifi-gateway --help
+            cp dist/unifi-gateway dist/unifi-gateway-freebsd-amd64
+            chmod +x pkg/freebsd/build-pkg.sh
+            sh pkg/freebsd/build-pkg.sh "$VERSION"
 
-      - name: Build binary
-        run: |
-          python3 -m PyInstaller ${{ env.PYINSTALLER_ARGS }}
-          ./dist/unifi-gateway --help
-          cp dist/unifi-gateway dist/unifi-gateway-freebsd-amd64
-
-      - name: Build FreeBSD .pkg
-        run: |
-          chmod +x pkg/freebsd/build-pkg.sh
-          sh pkg/freebsd/build-pkg.sh "${{ steps.version.outputs.version }}"
-
+      # copyback (default true) rsyncs dist/ back from the VM.
       - name: Upload binary
         uses: actions/upload-artifact@v4
         with:
@@ -154,10 +161,6 @@ jobs:
         with:
           name: pkg-freebsd-amd64
           path: dist/*.pkg
-
-      - name: Clean up
-        if: always()
-        run: rm -rf build dist repo *.spec
 
   # ── OpenWRT packages (pure Python, arch-independent) ──────────────
 

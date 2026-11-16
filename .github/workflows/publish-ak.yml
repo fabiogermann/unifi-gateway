@@ -1,8 +1,11 @@
 name: Publish .pkg to ArtifactKeeper
 
-# Builds the FreeBSD .pkg on a self-hosted FreeBSD runner and uploads it to
-# the ArtifactKeeper 'freebsd-pkg' repository through Cloudflare Access.
-# Upload is fail-closed: only HTTP 201 counts (see ci/upload-ak.sh).
+# Builds the FreeBSD .pkg inside a real FreeBSD 15 VM (vmactions/freebsd-vm,
+# QEMU/KVM on the standard ubuntu-latest runner — no self-hosted runner;
+# PyInstaller cannot cross-compile, so the build runs natively under a
+# FreeBSD kernel). Then uploads to the ArtifactKeeper 'freebsd-pkg'
+# repository through Cloudflare Access. Upload is fail-closed: only HTTP 201
+# counts (see ci/upload-ak.sh).
 #
 # Required secrets (repo settings):
 #   AK_API_TOKEN              — AK repo-scoped token (github-ci-unifi-gateway) with
@@ -27,57 +30,57 @@ permissions:
 env:
   ABI: FreeBSD:15:amd64
   AK_REPO: freebsd-pkg
-  PYINSTALLER_ARGS: >-
-    --onefile
-    --name unifi-gateway
-    --hidden-import Crypto.Cipher._mode_cbc
-    --hidden-import Crypto.Cipher._mode_gcm
-    --hidden-import Crypto.Cipher._mode_ecb
-    --hidden-import Crypto.Util.Padding
-    --hidden-import Crypto.Random
-    unifi_gateway.py
 
 jobs:
   build-pkg:
-    runs-on: [self-hosted, freebsd]
-    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
       - name: Extract version
-        id: version
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "version=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+            echo "VERSION=${{ inputs.version }}" >> "$GITHUB_ENV"
           else
-            echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+            echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
           fi
 
-      - name: Install dependencies
-        run: python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
+      - name: Build binary + .pkg in a FreeBSD 15 VM
+        uses: vmactions/freebsd-vm@v1
+        with:
+          release: "15"
+          cpu: 3
+          envs: |
+            VERSION
+            ABI
+          prepare: |
+            pkg install -y python313 py313-pip
+          cache-after-prepare: true
+          run: |
+            set -e
+            python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
+            python3 -m PyInstaller \
+              --onefile \
+              --name unifi-gateway \
+              --hidden-import Crypto.Cipher._mode_cbc \
+              --hidden-import Crypto.Cipher._mode_gcm \
+              --hidden-import Crypto.Cipher._mode_ecb \
+              --hidden-import Crypto.Util.Padding \
+              --hidden-import Crypto.Random \
+              unifi_gateway.py
+            ./dist/unifi-gateway --help
+            chmod +x pkg/freebsd/build-pkg.sh
+            ABI="$ABI" sh pkg/freebsd/build-pkg.sh "$VERSION"
 
-      - name: Build binary
-        run: |
-          python3 -m PyInstaller ${{ env.PYINSTALLER_ARGS }}
-          ./dist/unifi-gateway --help
-
-      - name: Build FreeBSD .pkg
-        env:
-          ABI: ${{ env.ABI }}
-        run: |
-          chmod +x pkg/freebsd/build-pkg.sh
-          sh pkg/freebsd/build-pkg.sh "${{ steps.version.outputs.version }}"
-
+      # copyback (default true) rsyncs the workspace — including dist/*.pkg —
+      # back from the VM onto this runner.
       - name: Upload pkg artifact
         uses: actions/upload-artifact@v4
         with:
           name: freebsd-pkg
           path: dist/*.pkg
           retention-days: 5
-
-      - name: Clean up
-        if: always()
-        run: rm -rf build dist repo *.spec
 
   publish-ak:
     name: Upload to AK (${{ env.AK_REPO }})
