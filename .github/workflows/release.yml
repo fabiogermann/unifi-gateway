@@ -137,12 +137,18 @@ jobs:
           cpu: 3
           envs: |
             VERSION
-          # py313-pip does not exist in the FreeBSD 15 pkg repo — discover the
-          # newest available pip flavor, install it (pulls in its python),
-          # and point python3 at it.
+          # py313-pip does not exist in the FreeBSD 15 pkg repo. Discover the
+          # newest available pip flavor — via a plain substring search piped
+          # through grep, because pkg's own pattern dialect varies by version.
           prepare: |
             set -e
-            pip_pkg=$(pkg search -q '^py3[0-9]+-pip-[0-9]' | sort -V | tail -n1)
+            uname -a
+            pip_pkg=$(pkg search -q pip | grep -E '^py3[0-9]+-pip-[0-9]' | sort -V | tail -n1 || true)
+            if [ -z "$pip_pkg" ]; then
+              echo "::error::no py3x-pip flavor found; candidates were:"
+              pkg search pip | head -30
+              exit 1
+            fi
             echo "Selected pip package: $pip_pkg"
             pkg install -y "$pip_pkg"
             pyver=$(echo "$pip_pkg" | sed -E 's/^py([0-9])([0-9]+)-pip-.*/\1.\2/')
