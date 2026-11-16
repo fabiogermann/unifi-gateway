@@ -112,6 +112,10 @@ jobs:
       AK_CF_ACCESS_CLIENT_SECRET: ${{ secrets.AK_CF_ACCESS_CLIENT_SECRET }}
       AK_URL: ${{ secrets.AK_URL }}
     steps:
+      # checkout is required: ci/upload-ak.sh lives in the repo, the artifact
+      # download only carries dist/*.pkg.
+      - uses: actions/checkout@v4
+
       - uses: actions/download-artifact@v4
         with:
           name: freebsd-pkg
