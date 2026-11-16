@@ -30,6 +30,15 @@ permissions:
 env:
   ABI: FreeBSD:15:amd64
   AK_REPO: freebsd-pkg
+  PYINSTALLER_ARGS: >-
+    --onefile
+    --name unifi-gateway
+    --hidden-import Crypto.Cipher._mode_cbc
+    --hidden-import Crypto.Cipher._mode_gcm
+    --hidden-import Crypto.Cipher._mode_ecb
+    --hidden-import Crypto.Util.Padding
+    --hidden-import Crypto.Random
+    unifi_gateway.py
 
 jobs:
   build-pkg:
@@ -53,7 +62,6 @@ jobs:
           cpu: 3
           envs: |
             VERSION
-            ABI
           # py313-pip does not exist in the FreeBSD 15 pkg repo. Discover the
           # newest available pip flavor — via a plain substring search piped
           # through grep, because pkg's own pattern dialect varies by version.
@@ -72,21 +80,16 @@ jobs:
             ln -sf "/usr/local/bin/python$pyver" /usr/local/bin/python3
             python3 --version
           cache-after-prepare: true
+          # Byte-aligned with the proven build-freebsd step in release.yml:
+          # no extra envs, single-line PyInstaller; build-pkg.sh defaults
+          # ABI to FreeBSD:15:amd64 itself.
           run: |
             set -e
             python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
-            python3 -m PyInstaller \
-              --onefile \
-              --name unifi-gateway \
-              --hidden-import Crypto.Cipher._mode_cbc \
-              --hidden-import Crypto.Cipher._mode_gcm \
-              --hidden-import Crypto.Cipher._mode_ecb \
-              --hidden-import Crypto.Util.Padding \
-              --hidden-import Crypto.Random \
-              unifi_gateway.py
+            python3 -m PyInstaller ${{ env.PYINSTALLER_ARGS }}
             ./dist/unifi-gateway --help
             chmod +x pkg/freebsd/build-pkg.sh
-            ABI="$ABI" sh pkg/freebsd/build-pkg.sh "$VERSION"
+            sh pkg/freebsd/build-pkg.sh "$VERSION"
 
       # copyback (default true) rsyncs the workspace — including dist/*.pkg —
       # back from the VM onto this runner.
