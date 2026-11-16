@@ -19,6 +19,7 @@ from struct import pack, unpack
 from binascii import a2b_hex
 
 from tlv import UnifiTLV
+from dpi import dpi_sections
 from tools import (
     mac_string_2_array, ip_string_2_array, netmask_to_cidr,
     uptime, get_hostname, get_if_table, get_network_table,
@@ -237,6 +238,7 @@ def _create_complete_inform(config, dc):
         'network_table': get_network_table(dc.data, ports),
         'if_table': get_if_table(dc.data, ports),
     }
+    payload.update(dpi_sections(config))
 
     return json.dumps(payload)
 

@@ -271,6 +271,9 @@ Updates are handled by your package manager: `apt upgrade`, `dnf upgrade`, `opkg
 | `ping_target` | `ping.ubnt.com` | Host for latency measurement |
 | `speedtest_file` | `./speedtest.json` | Path to speedtest results JSON |
 | `platform` | `UNIFI-GW` | Platform string in discovery broadcasts |
+| `has_dpi` | `False` | Report DPI capability to the controller (experimental) |
+| `dpi_version` | `1.404` | TDTS signature db version reported when `has_dpi = True` |
+| `dpi_stub_file` | _(none)_ | JSON file with `dpi-stats`/`dpi-stats-table`/`dpi-clients` sections; relative paths resolve against the config directory |
 
 #### `[provisioned]`
 
