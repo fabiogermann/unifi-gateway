@@ -83,10 +83,10 @@ def pkg_file(tmp_path):
 def _env(srv, **overrides):
     env = {
         'PATH': os.environ.get('PATH', '/usr/bin:/bin'),
-        'AK_BASE_URL': f'http://127.0.0.1:{srv.server_port}',
-        'AK_WRITE_TOKEN': GOOD_TOKEN,
-        'CF_ACCESS_CLIENT_ID': GOOD_CF_ID,
-        'CF_ACCESS_CLIENT_SECRET': GOOD_CF_SECRET,
+        'AK_URL': f'http://127.0.0.1:{srv.server_port}',
+        'AK_API_TOKEN': GOOD_TOKEN,
+        'AK_CF_ACCESS_CLIENT_ID': GOOD_CF_ID,
+        'AK_CF_ACCESS_CLIENT_SECRET': GOOD_CF_SECRET,
     }
     for k, v in overrides.items():
         if v is None:
@@ -136,11 +136,11 @@ class TestUploadAk:
     def test_wrong_cf_headers_rejected_by_edge(self, server, pkg_file):
         server.RequestHandlerClass.mode = 'happy'
         r = _run(server, pkg_file,
-                 _env(server, CF_ACCESS_CLIENT_SECRET='wrong'))
+                 _env(server, AK_CF_ACCESS_CLIENT_SECRET='wrong'))
         assert r.returncode != 0  # mock edge 403s -> script fails
 
     def test_missing_secret_guard_fails_before_curl(self, server, pkg_file):
         server.RequestHandlerClass.mode = 'happy'
-        r = _run(server, pkg_file, _env(server, AK_WRITE_TOKEN=None))
+        r = _run(server, pkg_file, _env(server, AK_API_TOKEN=None))
         assert r.returncode != 0
-        assert 'AK_WRITE_TOKEN' in r.stderr
+        assert 'AK_API_TOKEN' in r.stderr

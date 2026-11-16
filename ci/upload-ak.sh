@@ -14,15 +14,15 @@ PKG_FILE="${1:?usage: upload-ak.sh <file.pkg> <repo> <abi>}"
 AK_REPO="${2:?missing repo key (e.g. freebsd-pkg)}"
 ABI="${3:?missing ABI (e.g. FreeBSD:15:amd64)}"
 
-: "${AK_BASE_URL:?set AK_BASE_URL (e.g. https://ak.intra.sh)}"
-: "${AK_WRITE_TOKEN:?set AK_WRITE_TOKEN (repo-scoped write:artifacts token)}"
-: "${CF_ACCESS_CLIENT_ID:?set CF_ACCESS_CLIENT_ID}"
-: "${CF_ACCESS_CLIENT_SECRET:?set CF_ACCESS_CLIENT_SECRET}"
+: "${AK_URL:?set AK_URL (e.g. https://ak.intra.sh)}"
+: "${AK_API_TOKEN:?set AK_API_TOKEN (repo-scoped write:artifacts token)}"
+: "${AK_CF_ACCESS_CLIENT_ID:?set AK_CF_ACCESS_CLIENT_ID}"
+: "${AK_CF_ACCESS_CLIENT_SECRET:?set AK_CF_ACCESS_CLIENT_SECRET}"
 
 name="${PKG_FILE##*/}"
 checksum=$(sha256sum "$PKG_FILE" | awk '{print $1}')
 encoded_abi=$(printf '%s' "$ABI" | sed 's/:/%3A/g')
-url="${AK_BASE_URL%/}/api/v1/repositories/${AK_REPO}/artifacts/${encoded_abi}/${name}"
+url="${AK_URL%/}/api/v1/repositories/${AK_REPO}/artifacts/${encoded_abi}/${name}"
 
 body_file=$(mktemp)
 trap 'rm -f "$body_file"' EXIT
@@ -32,9 +32,9 @@ trap 'rm -f "$body_file"' EXIT
 code=$(curl --silent --show-error --output "$body_file" \
   --write-out '%{http_code}' \
   --request PUT \
-  -H "CF-Access-Client-Id: ${CF_ACCESS_CLIENT_ID}" \
-  -H "CF-Access-Client-Secret: ${CF_ACCESS_CLIENT_SECRET}" \
-  -H "Authorization: Bearer ${AK_WRITE_TOKEN}" \
+  -H "CF-Access-Client-Id: ${AK_CF_ACCESS_CLIENT_ID}" \
+  -H "CF-Access-Client-Secret: ${AK_CF_ACCESS_CLIENT_SECRET}" \
+  -H "Authorization: Bearer ${AK_API_TOKEN}" \
   -H "X-Checksum-SHA256: ${checksum}" \
   -H "User-Agent: unifi-gateway-ci (+https://github.com/fabiogermann/unifi-gateway)" \
   -H "Accept: application/json" \

@@ -5,11 +5,11 @@ name: Publish .pkg to ArtifactKeeper
 # Upload is fail-closed: only HTTP 201 counts (see ci/upload-ak.sh).
 #
 # Required secrets (repo settings):
-#   AK_WRITE_TOKEN          — AK repo-scoped token with write:artifacts on freebsd-pkg
-#   CF_ACCESS_CLIENT_ID     — Cloudflare Access service token id
-#   CF_ACCESS_CLIENT_SECRET — Cloudflare Access service token secret
-# Required variables:
-#   AK_BASE_URL             — e.g. https://ak.intra.sh
+#   AK_API_TOKEN              — AK repo-scoped token (github-ci-unifi-gateway) with
+#                               read:artifacts + write:artifacts on freebsd-pkg
+#   AK_CF_ACCESS_CLIENT_ID    — Cloudflare Access service token id
+#   AK_CF_ACCESS_CLIENT_SECRET— Cloudflare Access service token secret
+#   AK_URL                    — e.g. https://ak.intra.sh
 
 on:
   push:
@@ -85,10 +85,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      AK_WRITE_TOKEN: ${{ secrets.AK_WRITE_TOKEN }}
-      CF_ACCESS_CLIENT_ID: ${{ secrets.CF_ACCESS_CLIENT_ID }}
-      CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
-      AK_BASE_URL: ${{ vars.AK_BASE_URL }}
+      AK_API_TOKEN: ${{ secrets.AK_API_TOKEN }}
+      AK_CF_ACCESS_CLIENT_ID: ${{ secrets.AK_CF_ACCESS_CLIENT_ID }}
+      AK_CF_ACCESS_CLIENT_SECRET: ${{ secrets.AK_CF_ACCESS_CLIENT_SECRET }}
+      AK_URL: ${{ secrets.AK_URL }}
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -99,7 +99,7 @@ jobs:
         run: |
           set -e
           missing=0
-          for v in AK_WRITE_TOKEN CF_ACCESS_CLIENT_ID CF_ACCESS_CLIENT_SECRET AK_BASE_URL; do
+          for v in AK_API_TOKEN AK_CF_ACCESS_CLIENT_ID AK_CF_ACCESS_CLIENT_SECRET AK_URL; do
             eval "val=\${$v:-}"
             if [ -z "$val" ]; then
               echo "::error::$v is not set (secrets/variables — see workflow header)"
