@@ -1,0 +1,10 @@
+UniFi Gateway Emulator for OPNsense.
+
+Emulates a Ubiquiti UniFi Gateway (UGW3 / USG-3P) towards a UniFi controller:
+this firewall appears as an adoptable gateway and reports interface counters,
+client tables and DPI telemetry to the controller UI.
+
+Web UI: Services > UniFi Gateway
+  - service control (start / stop / restart)
+  - controller inform/enroll configuration
+  - one-click adoption (armed while not enrolled)

@@ -1,0 +1,56 @@
+#!/bin/sh
+
+# PROVIDE: unifi_gateway
+# REQUIRE: NETWORKING DAEMON
+# KEYWORD: shutdown
+
+. /etc/rc.subr
+
+name="unifi_gateway"
+rcvar="${name}_enable"
+
+load_rc_config $name
+
+: ${unifi_gateway_enable:="NO"}
+: ${unifi_gateway_config:="/usr/local/etc/unifi-gateway/unifi-gateway.conf"}
+: ${unifi_gateway_log:="/var/log/unifi-gateway.log"}
+
+command="/usr/local/sbin/unifi-gateway"
+pidfile="/var/run/unifi-gateway.pid"
+
+start_cmd="${name}_start"
+stop_cmd="${name}_stop"
+status_cmd="${name}_status"
+
+unifi_gateway_start()
+{
+    echo "Starting ${name}."
+    install -m 644 /dev/null "${pidfile}"
+    install -m 644 /dev/null "${unifi_gateway_log}"
+    UNIFI_GW_CONFIG="${unifi_gateway_config}" \
+    /usr/sbin/daemon -f -p "${pidfile}" -o "${unifi_gateway_log}" \
+        "${command}" run
+}
+
+unifi_gateway_stop()
+{
+    if [ -f "${pidfile}" ]; then
+        kill "$(cat "${pidfile}")" 2>/dev/null
+        rm -f "${pidfile}"
+    fi
+    # daemon(8) pidfile race fallback: a stale pidfile can orphan the daemon
+    pkill -f 'sbin/unifi-gateway run' 2>/dev/null
+    echo "Stopped ${name}."
+}
+
+unifi_gateway_status()
+{
+    if [ -f "${pidfile}" ] && kill -0 "$(cat "${pidfile}")" 2>/dev/null; then
+        echo "${name} is running as pid $(cat "${pidfile}")."
+        exit 0
+    fi
+    echo "${name} is not running."
+    exit 1
+}
+
+run_rc_command "$1"

@@ -1,0 +1,9 @@
+<acl>
+  <page-unifigateway>
+    <name>UniFi Gateway</name>
+    <patterns>
+      <pattern>ui/unifigateway/*</pattern>
+      <pattern>api/unifigateway/*</pattern>
+    </patterns>
+  </page-unifigateway>
+</acl>

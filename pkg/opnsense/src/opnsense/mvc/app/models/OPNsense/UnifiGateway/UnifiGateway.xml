@@ -1,0 +1,49 @@
+<model>
+  <mount>//OPNsense/unifigateway</mount>
+  <version>1.0.0</version>
+  <description>UniFi Gateway Emulator</description>
+  <items>
+    <general>
+      <enabled type="BooleanField"><default>0</default></enabled>
+      <controller type="TextField">
+        <Required>Y</Required>
+        <Mask>/^[a-zA-Z0-9._-]+$/</Mask>
+      </controller>
+      <controller_port type="PortField"><default>8080</default></controller_port>
+      <hostname type="TextField">
+        <Required>N</Required>
+        <Mask>/^[a-zA-Z0-9._-]*$/</Mask>
+      </hostname>
+    </general>
+    <network>
+      <wan_if type="TextField">
+        <Required>N</Required>
+        <Mask>/^[a-zA-Z0-9._-]*$/</Mask>
+      </wan_if>
+      <lan_if type="TextField">
+        <Required>N</Required>
+        <Mask>/^[a-zA-Z0-9._-]*$/</Mask>
+      </lan_if>
+      <lan_ip type="TextField">
+        <Required>N</Required>
+        <Mask>/^[0-9.]*$/</Mask>
+      </lan_ip>
+    </network>
+    <advanced>
+      <firmware type="TextField">
+        <default>4.4.57.5578372</default>
+        <Required>N</Required>
+        <Mask>/^[0-9.]*$/</Mask>
+      </firmware>
+      <log_level type="OptionField">
+        <default>INFO</default>
+        <OptionValues>
+          <DEBUG>Debug</DEBUG>
+          <INFO>Info</INFO>
+          <WARNING>Warning</WARNING>
+          <ERROR>Error</ERROR>
+        </OptionValues>
+      </log_level>
+    </advanced>
+  </items>
+</model>

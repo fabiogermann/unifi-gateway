@@ -1,0 +1,64 @@
+<form>
+    <tab id="general" description="General Settings">
+        <field>
+            <id>unifigateway.general.enabled</id>
+            <label>Enable UniFi Gateway</label>
+            <type>checkbox</type>
+            <help>Run the UniFi gateway emulator daemon. The device appears in the UniFi controller as a UGW3 (USG-3P) gateway.</help>
+        </field>
+        <field>
+            <id>unifigateway.general.controller</id>
+            <label>Controller hostname</label>
+            <type>text</type>
+            <help>Hostname or IP of the UniFi controller used for inform/enroll, e.g. unifi.example.com. The daemon informs http://&lt;host&gt;:&lt;port&gt;/inform. If the controller sits behind a vhosting load balancer, use the exact address its inform listener answers on — the bare IP when in doubt (a wrong vhost answers informs with HTTP 400).</help>
+        </field>
+        <field>
+            <id>unifigateway.general.controller_port</id>
+            <label>Controller inform port</label>
+            <type>text</type>
+            <help>Inform port on the controller. Default: 8080.</help>
+            <advanced>true</advanced>
+        </field>
+        <field>
+            <id>unifigateway.general.hostname</id>
+            <label>Device hostname</label>
+            <type>text</type>
+            <help>Hostname the emulated gateway reports to the controller. Leave empty to use this firewall's hostname.</help>
+        </field>
+    </tab>
+    <tab id="network" description="Port Mapping">
+        <field>
+            <id>unifigateway.network.wan_if</id>
+            <label>WAN interface</label>
+            <type>text</type>
+            <help>Real interface mapped to the emulated WAN port (eth0), e.g. vtnet0 or igb0. Its counters become the controller's WAN statistics.</help>
+        </field>
+        <field>
+            <id>unifigateway.network.lan_if</id>
+            <label>LAN interface</label>
+            <type>text</type>
+            <help>Real interface mapped to the emulated LAN port (eth1), e.g. vtnet1 or igb1. LAN IP/MAC are derived from it unless overridden.</help>
+        </field>
+        <field>
+            <id>unifigateway.network.lan_ip</id>
+            <label>LAN IP override</label>
+            <type>text</type>
+            <help>IPv4 address reported as the emulated gateway's LAN address. Leave empty to use the LAN interface's primary address.</help>
+            <advanced>true</advanced>
+        </field>
+    </tab>
+    <tab id="advanced" description="Advanced">
+        <field>
+            <id>unifigateway.advanced.firmware</id>
+            <label>Reported firmware</label>
+            <type>text</type>
+            <help>Firmware version reported to the controller. Pin to a version the controller treats as current to avoid upgrade nagging. Default: 4.4.57.5578372.</help>
+        </field>
+        <field>
+            <id>unifigateway.advanced.log_level</id>
+            <label>Log level</label>
+            <type>dropdown</type>
+            <help>Daemon logging verbosity. Routine inform cycles log at Debug.</help>
+        </field>
+    </tab>
+</form>
