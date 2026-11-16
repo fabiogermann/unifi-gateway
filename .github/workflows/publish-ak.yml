@@ -1,0 +1,125 @@
+name: Publish .pkg to ArtifactKeeper
+
+# Builds the FreeBSD .pkg on a self-hosted FreeBSD runner and uploads it to
+# the ArtifactKeeper 'freebsd-pkg' repository through Cloudflare Access.
+# Upload is fail-closed: only HTTP 201 counts (see ci/upload-ak.sh).
+#
+# Required secrets (repo settings):
+#   AK_WRITE_TOKEN          — AK repo-scoped token with write:artifacts on freebsd-pkg
+#   CF_ACCESS_CLIENT_ID     — Cloudflare Access service token id
+#   CF_ACCESS_CLIENT_SECRET — Cloudflare Access service token secret
+# Required variables:
+#   AK_BASE_URL             — e.g. https://ak.intra.sh
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build (e.g. 0.9.9-rc1)'
+        required: true
+
+permissions:
+  contents: read
+
+env:
+  ABI: FreeBSD:15:amd64
+  AK_REPO: freebsd-pkg
+  PYINSTALLER_ARGS: >-
+    --onefile
+    --name unifi-gateway
+    --hidden-import Crypto.Cipher._mode_cbc
+    --hidden-import Crypto.Cipher._mode_gcm
+    --hidden-import Crypto.Cipher._mode_ecb
+    --hidden-import Crypto.Util.Padding
+    --hidden-import Crypto.Random
+    unifi_gateway.py
+
+jobs:
+  build-pkg:
+    runs-on: [self-hosted, freebsd]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "version=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install dependencies
+        run: python3 -m pip install --break-system-packages -r requirements.txt pyinstaller
+
+      - name: Build binary
+        run: |
+          python3 -m PyInstaller ${{ env.PYINSTALLER_ARGS }}
+          ./dist/unifi-gateway --help
+
+      - name: Build FreeBSD .pkg
+        env:
+          ABI: ${{ env.ABI }}
+        run: |
+          chmod +x pkg/freebsd/build-pkg.sh
+          sh pkg/freebsd/build-pkg.sh "${{ steps.version.outputs.version }}"
+
+      - name: Upload pkg artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: freebsd-pkg
+          path: dist/*.pkg
+          retention-days: 5
+
+      - name: Clean up
+        if: always()
+        run: rm -rf build dist repo *.spec
+
+  publish-ak:
+    name: Upload to AK (${{ env.AK_REPO }})
+    needs: [build-pkg]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      AK_WRITE_TOKEN: ${{ secrets.AK_WRITE_TOKEN }}
+      CF_ACCESS_CLIENT_ID: ${{ secrets.CF_ACCESS_CLIENT_ID }}
+      CF_ACCESS_CLIENT_SECRET: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+      AK_BASE_URL: ${{ vars.AK_BASE_URL }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: freebsd-pkg
+          path: dist
+
+      - name: Guard required configuration
+        run: |
+          set -e
+          missing=0
+          for v in AK_WRITE_TOKEN CF_ACCESS_CLIENT_ID CF_ACCESS_CLIENT_SECRET AK_BASE_URL; do
+            eval "val=\${$v:-}"
+            if [ -z "$val" ]; then
+              echo "::error::$v is not set (secrets/variables — see workflow header)"
+              missing=1
+            fi
+          done
+          [ "$missing" = 0 ] || exit 1
+
+      - name: Upload .pkg
+        run: |
+          chmod +x ci/upload-ak.sh
+          for pkg in dist/*.pkg; do
+            ./ci/upload-ak.sh "$pkg" "${{ env.AK_REPO }}" "${{ env.ABI }}"
+          done
+
+      - name: Summary
+        if: success()
+        run: |
+          for pkg in dist/*.pkg; do
+            echo "- \`${pkg##*/}\` -> \`${{ env.AK_REPO }}/${{ env.ABI }}\`" >> "$GITHUB_STEP_SUMMARY"
+          done
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Catalogue refresh is server-side; verify with \`pkg rquery\` after the next refresh cycle." >> "$GITHUB_STEP_SUMMARY"

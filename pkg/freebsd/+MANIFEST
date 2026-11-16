@@ -1,5 +1,6 @@
 name: unifi-gateway
 version: "${VERSION}"
+arch: ${ABI}
 origin: net/unifi-gateway
 comment: UniFi Gateway Emulator
 maintainer: amd989@users.noreply.github.com

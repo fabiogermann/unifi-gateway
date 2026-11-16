@@ -31,8 +31,11 @@ cat > "$PLIST" <<EOF
 /usr/local/etc/unifi-gateway/unifi-gateway.sample.conf
 EOF
 
-# Generate manifest with version substituted
-sed "s/\${VERSION}/$VERSION/" "$PKG_DIR/+MANIFEST" > "$STAGING/+MANIFEST"
+# Generate manifest with version + ABI substituted. ABI is pinned explicitly:
+# a package whose recorded ABI differs from the destination catalogue tree is
+# correctly named and checksummed yet uninstallable.
+ABI="${ABI:-FreeBSD:15:amd64}"
+sed -e "s/\${VERSION}/$VERSION/" -e "s/\${ABI}/$ABI/" "$PKG_DIR/+MANIFEST" > "$STAGING/+MANIFEST"
 cp "$PKG_DIR/+POST_INSTALL" "$STAGING/+POST_INSTALL"
 cp "$PKG_DIR/+POST_DEINSTALL" "$STAGING/+POST_DEINSTALL"
 

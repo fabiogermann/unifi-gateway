@@ -204,7 +204,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/amd989/unifi-gateway
+          images: ghcr.io/fabiogermann/unifi-gateway
           tags: |
             type=semver,pattern={{version}}
             type=semver,pattern={{major}}.{{minor}}
@@ -265,33 +265,6 @@ jobs:
           generate_release_notes: true
           prerelease: ${{ contains(github.ref_name, '-') }}
 
-  # Packages are published centrally by amd989/packages, which serves
-  # packages.alejandro.md. This repository builds, attaches the artifacts to
-  # its own GitHub Release, and asks the publisher to pick that release up.
-  # The signing key and the storage credentials live only over there.
-  publish:
-    needs: [release]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Publish to packages.alejandro.md
-        env:
-          GH_TOKEN: ${{ secrets.PACKAGES_DISPATCH_TOKEN }}
-          REPO: ${{ github.repository }}
-          TAG: ${{ github.ref_name }}
-        run: |
-          set -euo pipefail
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::error::PACKAGES_DISPATCH_TOKEN is not set. The release exists, but packages.alejandro.md was not asked to publish it. Set the secret, then run the publish workflow in amd989/packages by hand for $REPO $TAG."
-            exit 1
-          fi
-          # -f rather than -F: -F converts values that look like numbers or
-          # booleans, and the publisher expects the tag as a string.
-          gh api repos/amd989/packages/dispatches \
-            -f event_type=publish \
-            -f "client_payload[repo]=$REPO" \
-            -f "client_payload[tag]=$TAG"
-          {
-            echo "### Asked packages.alejandro.md to publish \`$REPO\` \`$TAG\`"
-            echo
-            echo "Follow it at https://github.com/amd989/packages/actions/workflows/publish.yaml"
-          } >> "$GITHUB_STEP_SUMMARY"
+  # Upstream publishes to packages.alejandro.md via a repository dispatch.
+  # This fork publishes the FreeBSD .pkg to ArtifactKeeper instead —
+  # see .github/workflows/publish-ak.yml.
