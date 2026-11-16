@@ -54,8 +54,17 @@ jobs:
           envs: |
             VERSION
             ABI
+          # py313-pip does not exist in the FreeBSD 15 pkg repo — discover the
+          # newest available pip flavor, install it (pulls in its python),
+          # and point python3 at it.
           prepare: |
-            pkg install -y python313 py313-pip
+            set -e
+            pip_pkg=$(pkg search -q '^py3[0-9]+-pip-[0-9]' | sort -V | tail -n1)
+            echo "Selected pip package: $pip_pkg"
+            pkg install -y "$pip_pkg"
+            pyver=$(echo "$pip_pkg" | sed -E 's/^py([0-9])([0-9]+)-pip-.*/\1.\2/')
+            ln -sf "/usr/local/bin/python$pyver" /usr/local/bin/python3
+            python3 --version
           cache-after-prepare: true
           run: |
             set -e
@@ -82,8 +91,9 @@ jobs:
           path: dist/*.pkg
           retention-days: 5
 
+  # Note: the `env` context is not allowed in jobs.<id>.name — keep it static.
   publish-ak:
-    name: Upload to AK (${{ env.AK_REPO }})
+    name: Upload to AK
     needs: [build-pkg]
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -115,14 +125,14 @@ jobs:
         run: |
           chmod +x ci/upload-ak.sh
           for pkg in dist/*.pkg; do
-            ./ci/upload-ak.sh "$pkg" "${{ env.AK_REPO }}" "${{ env.ABI }}"
+            ./ci/upload-ak.sh "$pkg" "$AK_REPO" "$ABI"
           done
 
       - name: Summary
         if: success()
         run: |
           for pkg in dist/*.pkg; do
-            echo "- \`${pkg##*/}\` -> \`${{ env.AK_REPO }}/${{ env.ABI }}\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "- \`${pkg##*/}\` -> \`$AK_REPO/$ABI\`" >> "$GITHUB_STEP_SUMMARY"
           done
           echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "Catalogue refresh is server-side; verify with \`pkg rquery\` after the next refresh cycle." >> "$GITHUB_STEP_SUMMARY"
